@@ -25,13 +25,13 @@ The Global Pneumococcal Sequencing (GPS) project produced the largest database o
 
 ## Our Software
 
-[FastBaps](https://github.com/gtonkinhill/fastbaps)
+### [FastBaps](https://github.com/gtonkinhill/fastbaps)
 The fast BAPS algorithm is based on applying the hierarchical Bayesian clustering (BHC) algorithm of (Heller and Ghahramani 2005) to the problem of clustering genetic sequences using the same likelihood as BAPS (Cheng et al. 2013).
 
-[Panaroo](https://github.com/gtonkinhill/panaroo)
+### [Panaroo](https://github.com/gtonkinhill/panaroo)
 An updated pipeline for pangenome investigation.
 
-[Pairsnp](https://github.com/gtonkinhill/pairsnp)
+### [Pairsnp](https://github.com/gtonkinhill/pairsnp)
 A set of scripts for very quickly obtaining pairwise SNP distance matrices from multiple sequence alignments using sparse matrix libraries to improve performance.
 
 ## Meet the team
