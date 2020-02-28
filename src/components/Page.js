@@ -33,7 +33,7 @@ const Page = ({ children }) => {
         spacing={1}
         className={classes.gridContainer}
       >
-        <Grid item xs={12} md={11}>
+        <Grid item xs={12} md={10} lg={8}>
           {children}
         </Grid>
       </Grid>
