@@ -23,7 +23,7 @@ const WorldMap = () => {
   const path = geoPath().projection(projection);
 
   return (
-    <div ref={nodeRef} style={{ width: '100%', height: '100%' }}>
+    <div ref={nodeRef} style={{ width: '100%', height: 600 }}>
       <svg
         width={width}
         height={height}
