@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid, Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Header from './Header';
@@ -7,7 +7,6 @@ import Footer from './Footer';
 
 const useStyles = makeStyles({
   page: {
-    background: `#7293BC`,
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
@@ -25,7 +24,7 @@ const useStyles = makeStyles({
 const Page = ({ children }) => {
   const classes = useStyles();
   return (
-    <div className={classes.page}>
+    <Paper className={classes.page}>
       <Header />
       <Grid
         container
@@ -38,7 +37,7 @@ const Page = ({ children }) => {
         </Grid>
       </Grid>
       <Footer />
-    </div>
+    </Paper>
   );
 };
 

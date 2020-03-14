@@ -22,7 +22,7 @@ const PageHome = () => {
         <WorldMap pointGroups={pointGroups} />
       </Box>
       <Page>
-        <Box color="white">
+        <Box>
           <Content md={mdHome} />
         </Box>
       </Page>

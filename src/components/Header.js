@@ -3,7 +3,7 @@ import { Box, Grid, Button, Typography } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-  <Box m={4} color="white">
+  <Box m={4}>
     <Grid container alignItems="center" justify="space-between" spacing={4}>
       <Grid item>
         <Typography>Bentley Group</Typography>
