@@ -40,35 +40,53 @@ A set of scripts for very quickly obtaining pairwise SNP distance matrices from 
 ## Meet the team
 
 ### Professor Stephen D. Bentley - Team Leader
-![Professor Stephen D. Bentley - Team Leader](people/headshot-small.png "Professor Stephen D. Bentley - Team Leader")
+![Professor Stephen D. Bentley - Team Leader](people/Stephen_1_BW_2.jpg "Professor Stephen D. Bentley - Team Leader")
+
 I’m interested in exploring how we can use genomics in efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low income settings.
 
 ### Dr Chrispin Chaguza - Post Doctoral Fellow
-![Dr Chrispin Chaguza - Post Doctoral Fellow ](people/headshot-small.png "Dr Chrispin Chaguza - Post Doctoral Fellow ")
+![Dr Chrispin Chaguza - Post Doctoral Fellow](people/Chrispin_2_BW.jpg "Dr Chrispin Chaguza - Post Doctoral Fellow")
+
 My research uses high-throughput sequencing approaches to understand the epidemiology, evolution and genetics of bacterial phenotypes primarily in clinically-significant pathogens.
 
 ### Dr Christine J. Boinett - Product Manager and Principal Bioinformatician
+![Dr Christine J. Boinett - Product Manager and Principal Bioinformatician](people/Christine_1_BW.jpg "Dr Christine J. Boinett - Product Manager and Principal Bioinformatician")
+
 I am involved in developing, managing and delivering bioinformatics training for our JUNO and GPS2 project partners.
 
 ### Dr. Dorota Jamrozy - Project Manager and Principal Bioinformatician
+![Dr. Dorota Jamrozy - Project Manager and Principal Bioinformatician](people/Dorota_1_BW.jpg "Dr. Dorota Jamrozy - Project Manager and Principal Bioinformatician")
+
 I’m interested in exploring how we can use genomics in efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low income settings.
 
 ### Dr Felix Dube - Visiting Researcher
+![Dr Felix Dube - Visiting Researcher](people/Felix_BW.jpg "Dr Felix Dube - Visiting Researcher")
+
 Analysis of microbial populations (with a focus on *Streptococcus pneumoniae*) to understand the epidemiology and spread of antimicrobial resistance. 
 
 ### Gareth Peat - Principal Software Developer
+![Gareth Peat - Principal Software Developer](people/Gareth_2_BW.jpg "Gareth Peat - Principal Software Developer")
+
 I am involved in developing the software and infrastructure for the JUNO project.
 
 ### Gerry Tonkin-HIll - PhD Student
+![Gerry Tonkin-HIll - PhD Student](people/Gerry_1_BW.jpg "Gerry Tonkin-HIll - PhD Student")
+
 I study within-host evolution and transmission in *Streptococcus pneumoniae* as well as  developing statistical and bioinformatics methods for microbial genomics.
 
 ### Neil MacAlasdair - PhD student
+![Neil MacAlasdair - PhD Student](people/Neil_1_BW.jpg "Neil MacAlasdair - PhD Student")
+
 I study recombination and its effects on evolution in Neisseria meningitidis and how this affects various populations.
 
-### Dr. Stephanie Wai-U Lo - Project Manager and Principal Bioinformatician 
+### Dr. Stephanie Wai-U Lo - Project Manager and Principal Bioinformatician
+![Dr. Stephanie Wai-U Lo - Project Manager and Principal Bioinformatician](people/Stephanie_1_BW2.jpg "Dr. Stephanie Wai-U Lo - Project Manager and Principal Bioinformatician")
+
 I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications.
 
 ### Uzma Basit Khan - Senior Computational Biologist
+![Uzma Basit Khan - Senior Computational Biologist](people/Uzma_2_BW.jpg "Uzma Basit Khan - Senior Computational Biologist")
+
 I study antibiotic resistance mechanisms, recombination and mobile genetic elements (MGEs) transmission in Streptococcus agalactiae to comprehend bacterial adaptation and evolution.
 
 ## Selected Publications

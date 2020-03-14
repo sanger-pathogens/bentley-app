@@ -7,6 +7,7 @@ const renderers = {
   heading: ({ level, children }) => (
     <Typography variant={`h${level}`}>{children}</Typography>
   ),
+  image: props => <img {...props} width="250px" />,
 };
 
 const Content = ({ md }) => <Markdown source={md} renderers={renderers} />;
