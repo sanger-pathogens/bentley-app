@@ -7,10 +7,27 @@ import {
   responsiveFontSizes,
 } from '@material-ui/core/styles';
 
+import 'typeface-inter';
+
 import PageHome from './components/PageHome';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
+    typography: {
+      fontFamily: [
+        'inter',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        'sans-serif',
+        '"Apple Color Emoji"',
+        '"Segoe UI Emoji"',
+        '"Segoe UI Symbol"',
+      ].join(','),
+    },
     palette: {
       type: 'dark',
       // primary: { main: '#7293BC' }, // Christine's blue
