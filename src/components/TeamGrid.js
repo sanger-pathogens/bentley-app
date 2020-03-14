@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Box, Typography } from '@material-ui/core';
 
 import team from '../content/team';
+import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Person = ({ name, role, imageUrl, description }) => (
   <Box p={2}>
@@ -10,7 +11,7 @@ const Person = ({ name, role, imageUrl, description }) => (
     <Typography variant="subtitle1">
       <i>{role}</i>
     </Typography>
-    <Typography variant="body2">{description}</Typography>
+    <TeamDescriptionRenderer md={description} />
   </Box>
 );
 
