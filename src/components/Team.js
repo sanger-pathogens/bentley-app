@@ -17,7 +17,7 @@ const Person = ({ name, role, imageUrl, description }) => (
 const Team = () => (
   <Grid container>
     {team.map(person => (
-      <Grid key={person.name} item xs={12} md={4} lg={3}>
+      <Grid key={person.name} item xs={12} sm={6} md={4} lg={3}>
         <Person {...person} />
       </Grid>
     ))}
