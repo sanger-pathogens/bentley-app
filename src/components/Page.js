@@ -2,9 +2,6 @@ import React from 'react';
 import { Grid, Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import Header from './Header';
-import Footer from './Footer';
-
 const useStyles = makeStyles({
   page: {
     minHeight: '100vh',
