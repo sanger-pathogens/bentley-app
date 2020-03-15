@@ -18,22 +18,31 @@ import Page from './Page';
 const PageHome = () => {
   return (
     <Page>
-      <Typography variant="h2">Full site demo</Typography>
-      <Typography variant="h6">
+      <Typography variant="h4">Full site demo</Typography>
+      <Typography>
         <Link href="/demo/scroll-with-navbar">Long scroll with navbar</Link>
       </Typography>
-      <Typography variant="h2">Variants for different sections</Typography>
-      <Typography variant="h6">
+      <Typography variant="h4">Variants for different sections</Typography>
+      <Typography>
         <Link href="/team-variants">Team</Link>
       </Typography>
-      <Typography variant="h6">
+      <Typography>
         <Link href="/software-variants">Software</Link>
       </Typography>
-      <Typography variant="h2">Possible interactive charts</Typography>
-      <Typography variant="h6">
+      <Typography variant="h4">Possible interactive charts</Typography>
+      <Typography>
         <Link href="/tree-of-life">
           Tree of life (highlighting our species)
         </Link>
+      </Typography>
+      <Typography variant="h4">Known TODOs</Typography>
+      <Typography>
+        <ul>
+          <li>Add contact info to footer</li>
+          <li>Add twitter feed</li>
+          <li>Add some more images (eg. Sanger backdrop) maybe</li>
+          <li>Try out some different colours</li>
+        </ul>
       </Typography>
     </Page>
     // <React.Fragment>
