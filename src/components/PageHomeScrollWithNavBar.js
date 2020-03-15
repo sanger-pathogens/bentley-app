@@ -1,4 +1,5 @@
 import React from 'react';
+import raw from 'raw.macro';
 import { Box, Typography } from '@material-ui/core';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
 
@@ -10,12 +11,16 @@ import HeaderScrollWithNavBar from './HeaderScrollWithNavBar';
 import Footer from './Footer';
 import AboutUs from './AboutUs';
 import ResearchThemes from './ResearchThemes';
+import Content from './Content';
 
 // Offset all anchors by -60 to account for a fixed header
 // and scroll more quickly than the default 400ms
 configureAnchors({ offset: -60, scrollDuration: 200 });
 
 const sectionPaddingTop = 8;
+
+const mdVisitors = raw('../content/visitors.md');
+const mdAlumni = raw('../content/alumni.md');
 
 const PageHomeScrollWithNavBar = () => (
   <Page header={<HeaderScrollWithNavBar />} footer={<Footer />}>
@@ -52,8 +57,18 @@ const PageHomeScrollWithNavBar = () => (
         <ScrollableAnchor id="team">
           <Box>
             <Typography variant="h2">Meet the team</Typography>
-            <Typography variant="h4">Current members</Typography>
+            <Typography variant="h4" style={{ paddingTop: '1rem' }}>
+              Current members
+            </Typography>
             <TeamGrid />
+            <Typography variant="h4" style={{ paddingTop: '1rem' }}>
+              Visitors
+            </Typography>
+            <Content md={mdVisitors} />
+            <Typography variant="h4" style={{ paddingTop: '1rem' }}>
+              Alumni
+            </Typography>
+            <Content md={mdAlumni} />
           </Box>
         </ScrollableAnchor>
       </Box>
