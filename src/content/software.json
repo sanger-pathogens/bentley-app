@@ -1,0 +1,66 @@
+[
+    {
+        "name": "FastBAPS",
+        "links": [
+            {
+                "label": "View on GitHub",
+                "url": "https://github.com/gtonkinhill/fastbaps"
+            }
+        ],
+        "description": "Fastbaps is a fast solution to the genetic clustering problem. It rapidly identifies an approximate fit to a Dirichlet process mixture model (DPM) for clustering multilocus genotype data. Our efficient model-based clustering approach is able to cluster datasets 10–100 times larger including over 110,000 sequences of HIV-1 pol genes. [RheirBAPS](https://rdrr.io/github/gtonkinhill/rhierbaps/man/hierBAPS.html), is an R implementation of  fasBAPS, that automates the entire pipeline."
+    },
+    {
+        "name": "Gubbins",
+        "links": [
+            {
+                "label": "View documentation",
+                "url": "http://sanger-pathogens.github.io/gubbins/"
+            }
+        ],
+        "description": "Gubbins (Genealogies Unbiased By recomBinations In Nucleotide Sequences) identifies recombination regions in the bacterial genome using an algorithm that iteratively identifies loci containing elevated densities of base substitutions while concurrently constructing a phylogeny based on the putative point mutations outside of these regions."
+    },
+    {
+        "name": "Pairsnp",
+        "links": [
+            {
+                "label": "View on GitHub",
+                "url": "https://github.com/gtonkinhill/pairsnp"
+            }
+        ],
+        "description": "Pairsnp is used to quickly obtain pairwise SNP distance matrices from multiple sequence alignments. For larger alignments, pairsnp is an order of magnitude faster than approaches based on pairwise comparison of every site."
+    },
+    {
+        "name": "Panaroo",
+        "links": [
+            {
+                "label": "View on GitHub",
+                "url": "https://github.com/gtonkinhill/panaroo"
+            }
+        ],
+        "description": "Panaroo is a graph based pangenome clustering tool that is able to account for many of the sources of error introduced during the annotation of prokaryotic genome assemblies."
+    },
+    {
+        "name": "PopPUNK",
+        "links": [
+            {
+                "label": "View documentation",
+                "url": "https://poppunk.readthedocs.io/en/latest/"
+            }
+        ],
+        "description": "PopPUNK (Population Partitioning Using Nucleotide K-mers) uses scalable and expandable annotation- and alignment-free methods for population analysis and clustering."
+    },
+    {
+        "name": "SEER and PYSEER",
+        "links": [
+            {
+                "label": "View SEER on GitHub",
+                "url": "https://github.com/johnlees/seer"
+            },
+            {
+                "label": "View PYSEER documentation",
+                "url": "https://pyseer.readthedocs.io/en/master/"
+            }
+        ],
+        "description": "SEER (sequence element enrichment analysis) is a statistical method that identifies sequence elements that are significantly enriched in a phenotype of interest. PYSEER is a further implementation of seer written in python with additional features. Both pyseer and its predecessor, seer, allow for genome-wide association studies (GWAS) to be performed in clonal organisms such as bacteria and viruses."
+    }
+]

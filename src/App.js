@@ -12,6 +12,7 @@ import 'typeface-inter';
 import PageHome from './components/PageHome';
 import PageTeamVariants from './components/PageTeamVariants';
 import PageResearchVariants from './components/PageResearchVariants';
+import PageSoftwareVariants from './components/PageSoftwareVariants';
 import PagePublications from './components/PagePublications';
 
 const theme = responsiveFontSizes(
@@ -69,6 +70,9 @@ const App = () => (
           </Route>
           <Route exact path="/research-variants">
             <PageResearchVariants />
+          </Route>
+          <Route exact path="/software-variants">
+            <PageSoftwareVariants />
           </Route>
           <Route exact path="/publications">
             <PagePublications />
