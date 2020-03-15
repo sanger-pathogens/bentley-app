@@ -12,6 +12,7 @@ import 'typeface-inter';
 import PageHome from './components/PageHome';
 import PageTeamVariants from './components/PageTeamVariants';
 import PageResearchVariants from './components/PageResearchVariants';
+import PagePublications from './components/PagePublications';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
@@ -68,6 +69,9 @@ const App = () => (
           </Route>
           <Route exact path="/research-variants">
             <PageResearchVariants />
+          </Route>
+          <Route exact path="/publications">
+            <PagePublications />
           </Route>
         </Switch>
       </Router>
