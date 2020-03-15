@@ -25,9 +25,9 @@ const newickParser = s => {
         break;
       default:
         var x = tokens[i - 1];
-        if (x == ')' || x == '(' || x == ',') {
+        if (x === ')' || x === '(' || x === ',') {
           tree.name = token;
-        } else if (x == ':') {
+        } else if (x === ':') {
           tree.length = parseFloat(token);
         }
     }
