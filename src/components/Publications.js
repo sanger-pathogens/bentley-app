@@ -3,13 +3,15 @@ import { Grid, Box, Typography, Link } from '@material-ui/core';
 
 import publications from '../content/selected-publications';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
+import PublicationAuthorsRenderer from './PublicationAuthorsRenderer';
 
-const Publication = ({ title, url, authorsAndJournalRef }) => (
+const Publication = ({ title, url, authors, journalRef }) => (
   <Box pt={2} pb={2}>
     <Typography variant="h6">
       <Link href={url}>{title}</Link>
     </Typography>
-    <TeamDescriptionRenderer md={authorsAndJournalRef} />
+    <PublicationAuthorsRenderer md={authors} />
+    <TeamDescriptionRenderer md={journalRef} />
   </Box>
 );
 

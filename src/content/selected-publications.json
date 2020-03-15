@@ -2,51 +2,61 @@
     {
         "title": "Pneumococcal lineages associated with serotype replacement and antibiotic resistance in childhood invasive pneumococcal disease in the post-PCV13 era: an international whole-genome sequencing study.",
         "url": "https://www.ncbi.nlm.nih.gov/pubmed/31196809",
-        "authorsAndJournalRef": "Lo SW, Gladstone RA, van Tonder AJ, Lees JA, du Plessis M, *et al.* Lancet Infect Dis. 2019 Jul;19(7):759-769."
+        "authors": "Lo SW, Gladstone RA, van Tonder AJ, Lees JA, du Plessis M, *et al.*",
+        "journalRef": "Lancet Infect Dis. 2019 Jul;19(7):759-769."
     },
     {
         "title": "Evolution and Global Transmission of a Multidrug-Resistant, Community-Associated Methicillin-Resistant Staphylococcus aureus Lineage from the Indian Subcontinent.",
         "url": "https://www.ncbi.nlm.nih.gov/pubmed/31772058",
-        "authorsAndJournalRef": "Steinig EJ, Duchene S, Robinson DA, Monecke S, Yokoyama M, *et al.* mBio. 2019 Nov 26;10(6)."
+        "authors": "Steinig EJ, Duchene S, Robinson DA, Monecke S, Yokoyama M, *et al.*",
+        "journalRef": "mBio. 2019 Nov 26;10(6)."
     },
     {
         "title": "International genomic definition of pneumococcal lineages, to contextualise disease, antibiotic resistance and vaccine impact.",
         "url": "https://www.ncbi.nlm.nih.gov/pubmed/31003929",
-        "authorsAndJournalRef": "Gladstone RA, Lo SW, Lees JA, Croucher NJ, van Tonder AJ, *et al*. EBioMedicine. 2019 May;43:338-346."
+        "authors": "Gladstone RA, Lo SW, Lees JA, Croucher NJ, van Tonder AJ, *et al*.",
+        "journalRef": "EBioMedicine. 2019 May;43:338-346."
     },
     {
         "title": "Joint sequencing of human and pathogen genomes reveals the genetics of pneumococcal meningitis.",
         "url": "https://www.ncbi.nlm.nih.gov/pubmed/31092817",
-        "authorsAndJournalRef": "Lees JA, Ferwerda B, Kremer PHC, Wheeler NE, Serón MV *et al.* Nat Commun. 2019 May 15;10(1):2176."
+        "authors": "Lees JA, Ferwerda B, Kremer PHC, Wheeler NE, Serón MV *et al.*",
+        "journalRef": "Nat Commun. 2019 May 15;10(1):2176."
     },
     {
         "title": "Fast and flexible bacterial genomic epidemiology with PopPUNK.",
         "url": "https://www.ncbi.nlm.nih.gov/pubmed/30679308",
-        "authorsAndJournalRef": "Lees JA, Harris SR, Tonkin-Hill G, Gladstone RA, Lo SW, Weiser JN, Corander J, Bentley SD, Croucher NJ. Genome Res. 2019 Feb;29(2):304-316."
+        "authors": "Lees JA, Harris SR, Tonkin-Hill G, Gladstone RA, Lo SW, Weiser JN, Corander J, Bentley SD, Croucher NJ.",
+        "journalRef": "Genome Res. 2019 Feb;29(2):304-316."
     },
     {
         "title": "Dense genomic sampling identifies highways of pneumococcal recombination.",
         "url": "https://europepmc.org/article/MED/24509479",
-        "authorsAndJournalRef": "Chewapreecha C, Harris SR, Croucher NJ, Turner C, Marttinen P *et al*. Nature genetics 2014;46;3;305-309."
+        "authors": "Chewapreecha C, Harris SR, Croucher NJ, Turner C, Marttinen P *et al*.",
+        "journalRef": "Nature genetics 2014;46;3;305-309."
     },
     {
         "title": "Population genomics of post-vaccine changes in pneumococcal epidemiology.",
         "url": "https://europepmc.org/article/MED/23644493",
-        "authorsAndJournalRef": "Croucher NJ, Finkelstein JA, Pelton SI, Mitchell PK, Lee GM *et al*. Nature genetics 2013;45;6;656-63."
+        "authors": "Croucher NJ, Finkelstein JA, Pelton SI, Mitchell PK, Lee GM *et al*.",
+        "journalRef": "Nature genetics 2013;45;6;656-63."
     },
     {
         "title": "Whole-genome sequencing for analysis of an outbreak of meticillin-resistant Staphylococcus aureus: a descriptive study.",
         "url": "https://europepmc.org/article/MED/23158674",
-        "authorsAndJournalRef": "Harris SR, Cartwright EJ, Török ME, Holden MT, Brown NM *et al*. The Lancet. Infectious diseases 2013;13;2;130-6."
+        "authors": "Harris SR, Cartwright EJ, Török ME, Holden MT, Brown NM *et al*.",
+        "journalRef": "The Lancet. Infectious diseases 2013;13;2;130-6."
     },
     {
         "title": "Rapid pneumococcal evolution in response to clinical interventions.",
         "url": "https://europepmc.org/article/MED/21273480",
-        "authorsAndJournalRef": "Croucher NJ, Harris SR, Fraser C, Quail MA, Burton J *et al*. Science 2011;331;6016;430-4."
+        "authors": "Croucher NJ, Harris SR, Fraser C, Quail MA, Burton J *et al*.",
+        "journalRef": "Science 2011;331;6016;430-4."
     },
     {
         "title": "Evolution of MRSA during hospital transmission and intercontinental spread.",
         "url": "https://europepmc.org/article/MED/20093474",
-        "authorsAndJournalRef": "Harris SR, Feil EJ, Holden MT, Quail MA, Nickerson EK *et al*. Science 2010;327;5964;469-74."
+        "authors": "Harris SR, Feil EJ, Holden MT, Quail MA, Nickerson EK *et al*.",
+        "journalRef": "Science 2010;327;5964;469-74."
     }
 ]
