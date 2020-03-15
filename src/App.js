@@ -19,6 +19,9 @@ import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
 const theme = responsiveFontSizes(
   createMuiTheme({
     typography: {
+      button: {
+        textTransform: 'none',
+      },
       fontFamily: [
         'inter',
         '-apple-system',
