@@ -47,9 +47,9 @@ function linkStep(startAngle, startRadius, endAngle, endRadius) {
   );
 }
 
-function linkConstant(d) {
-  return linkStep(d.source.x, d.source.y, d.target.x, d.target.y);
-}
+// function linkConstant(d) {
+//   return linkStep(d.source.x, d.source.y, d.target.x, d.target.y);
+// }
 
 function linkVariable(d) {
   return linkStep(d.source.x, d.source.radius, d.target.x, d.target.radius);
