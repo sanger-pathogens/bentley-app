@@ -5,7 +5,7 @@ import publications from '../content/selected-publications';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Publication = ({ title, url, authorsAndJournalRef }) => (
-  <Box p={2}>
+  <Box pt={2} pb={2}>
     <Typography variant="h6">
       <Link href={url}>{title}</Link>
     </Typography>
