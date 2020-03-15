@@ -15,40 +15,56 @@ import ResearchThemes from './ResearchThemes';
 // and scroll more quickly than the default 400ms
 configureAnchors({ offset: -60, scrollDuration: 200 });
 
+const sectionPaddingTop = 8;
+
 const PageHomeScrollWithNavBar = () => (
   <Page header={<HeaderScrollWithNavBar />} footer={<Footer />}>
     <Box>
-      <ScrollableAnchor id="about">
-        <Box>
-          <Typography variant="h2">About us</Typography>
-          <AboutUs />
-        </Box>
-      </ScrollableAnchor>
-      <ScrollableAnchor id="research">
-        <Box>
-          <Typography variant="h2">Research themes</Typography>
-          <ResearchThemes />
-        </Box>
-      </ScrollableAnchor>
-      <ScrollableAnchor id="software">
-        <Box>
-          <Typography variant="h2">Our software</Typography>
-          <SoftwareGrid />
-        </Box>
-      </ScrollableAnchor>
-      <ScrollableAnchor id="team">
-        <Box>
-          <Typography variant="h2">Meet the team</Typography>
-          <Typography variant="h4">Current members</Typography>
-          <TeamGrid />
-        </Box>
-      </ScrollableAnchor>
-      <ScrollableAnchor id="publications">
-        <Box>
-          <Typography variant="h2">Publications</Typography>
-          <Publications />
-        </Box>
-      </ScrollableAnchor>
+      <Typography variant="h1" align="center">
+        Bentley Group
+      </Typography>
+
+      <Box pt={sectionPaddingTop}>
+        <ScrollableAnchor id="about">
+          <Box>
+            <Typography variant="h2">About us</Typography>
+            <AboutUs />
+          </Box>
+        </ScrollableAnchor>
+      </Box>
+      <Box pt={sectionPaddingTop}>
+        <ScrollableAnchor id="research">
+          <Box>
+            <Typography variant="h2">Research themes</Typography>
+            <ResearchThemes />
+          </Box>
+        </ScrollableAnchor>
+      </Box>
+      <Box pt={sectionPaddingTop}>
+        <ScrollableAnchor id="software">
+          <Box>
+            <Typography variant="h2">Our software</Typography>
+            <SoftwareGrid />
+          </Box>
+        </ScrollableAnchor>
+      </Box>
+      <Box pt={sectionPaddingTop}>
+        <ScrollableAnchor id="team">
+          <Box>
+            <Typography variant="h2">Meet the team</Typography>
+            <Typography variant="h4">Current members</Typography>
+            <TeamGrid />
+          </Box>
+        </ScrollableAnchor>
+      </Box>
+      <Box pt={sectionPaddingTop}>
+        <ScrollableAnchor id="publications">
+          <Box>
+            <Typography variant="h2">Publications</Typography>
+            <Publications />
+          </Box>
+        </ScrollableAnchor>
+      </Box>
     </Box>
   </Page>
 );

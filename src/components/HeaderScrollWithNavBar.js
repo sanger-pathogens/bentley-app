@@ -9,27 +9,23 @@ import {
   useScrollTrigger,
 } from '@material-ui/core';
 
-const ElevationScroll = ({ children }) => {
+const Header = () => {
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 0,
     target: window,
   });
-
-  return React.cloneElement(children, {
-    // elevation: trigger ? 4 : 0,
-    color: trigger ? 'inherit' : 'transparent',
-    style: { borderBottom: trigger ? '2px solid white' : 'none' },
-  });
-};
-
-const Header = () => (
-  <ElevationScroll>
-    <AppBar position="sticky" color="transparent" elevation={0}>
+  return (
+    <AppBar
+      position="sticky"
+      color={trigger ? 'inherit' : 'transparent'}
+      style={{ borderBottom: trigger ? '2px solid white' : 'none' }}
+      elevation={0}
+    >
       <Toolbar variant="dense">
         <Grid container alignItems="center" justify="space-between" spacing={4}>
           <Grid item>
-            <Typography>Bentley Group</Typography>
+            {trigger ? <Typography>Bentley Group</Typography> : null}
           </Grid>
           <Grid item>
             <Button color="inherit" href="#about" component={Link}>
@@ -51,7 +47,7 @@ const Header = () => (
         </Grid>
       </Toolbar>
     </AppBar>
-  </ElevationScroll>
-);
+  );
+};
 
 export default Header;
