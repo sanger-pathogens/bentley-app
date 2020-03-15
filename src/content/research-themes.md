@@ -1,5 +1,3 @@
-### Research themes
-
 Infectious disease is one of the leading causes of mortality in children under five*. The advent of large-scale genomic sequencing technology, open access data and increasing collaborations worldwide has enabled research scientists to tackle the problem of infectious disease from a global standpoint. Through various projects, we aim to understand the evolution of bacteria associated with pneumonia, meningitis and neonatal sepsis in a global context, in particular are those whose major disease burden are in resource-poor settings.
 
 *[World Health Organization](https://www.who.int/topics/infectious_diseases/en/)

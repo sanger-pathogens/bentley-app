@@ -8,6 +8,8 @@ import TeamGrid from './TeamGrid';
 import Publications from './Publications';
 import HeaderScrollWithNavBar from './HeaderScrollWithNavBar';
 import Footer from './Footer';
+import AboutUs from './AboutUs';
+import ResearchThemes from './ResearchThemes';
 
 // Offset all anchors by -60 to account for a fixed header
 // and scroll more quickly than the default 400ms
@@ -17,10 +19,16 @@ const PageHomeScrollWithNavBar = () => (
   <Page header={<HeaderScrollWithNavBar />} footer={<Footer />}>
     <Box>
       <ScrollableAnchor id="about">
-        <Typography variant="h2">About us</Typography>
+        <Box>
+          <Typography variant="h2">About us</Typography>
+          <AboutUs />
+        </Box>
       </ScrollableAnchor>
       <ScrollableAnchor id="research">
-        <Typography variant="h2">Research themes</Typography>
+        <Box>
+          <Typography variant="h2">Research themes</Typography>
+          <ResearchThemes />
+        </Box>
       </ScrollableAnchor>
       <ScrollableAnchor id="software">
         <Box>
