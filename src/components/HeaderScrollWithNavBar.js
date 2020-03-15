@@ -18,7 +18,8 @@ const ElevationScroll = ({ children }) => {
 
   return React.cloneElement(children, {
     // elevation: trigger ? 4 : 0,
-    color: trigger ? 'secondary' : 'transparent',
+    color: trigger ? 'inherit' : 'transparent',
+    style: { borderBottom: trigger ? '2px solid white' : 'none' },
   });
 };
 
