@@ -5,7 +5,7 @@ import softwares from '../content/software';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Software = ({ name, links, description }) => (
-  <Box p={2}>
+  <Box pt={2} pb={2}>
     <Grid container spacing={2}>
       <Grid item xs={4} lg={3} xl={2}>
         <Box textAlign="right">

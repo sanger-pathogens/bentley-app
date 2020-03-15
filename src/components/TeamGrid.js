@@ -5,7 +5,7 @@ import team from '../content/team';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Person = ({ name, role, imageUrl, description }) => (
-  <Box p={2}>
+  <Box>
     <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
     <Typography variant="h6">{name}</Typography>
     <Typography variant="subtitle1">
@@ -16,13 +16,15 @@ const Person = ({ name, role, imageUrl, description }) => (
 );
 
 const Team = () => (
-  <Grid container>
-    {team.map(person => (
-      <Grid key={person.name} item xs={12} sm={6} md={4} lg={3}>
-        <Person {...person} />
-      </Grid>
-    ))}
-  </Grid>
+  <Box pt={2} pb={2}>
+    <Grid container spacing={2}>
+      {team.map(person => (
+        <Grid key={person.name} item xs={12} sm={6} md={4} lg={3}>
+          <Person {...person} />
+        </Grid>
+      ))}
+    </Grid>
+  </Box>
 );
 
 export default Team;

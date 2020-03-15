@@ -5,7 +5,7 @@ import softwares from '../content/software';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Software = ({ name, links, description }) => (
-  <Box p={2}>
+  <Box>
     <Typography variant="h6">{name}</Typography>
     {links.map((link, i) => (
       <Typography key={i} variant="body2">
@@ -17,13 +17,15 @@ const Software = ({ name, links, description }) => (
 );
 
 const Softwares = () => (
-  <Grid container>
-    {softwares.map((software, i) => (
-      <Grid key={i} item xs={12} sm={6} md={4}>
-        <Software {...software} />
-      </Grid>
-    ))}
-  </Grid>
+  <Box pt={2} pb={2}>
+    <Grid container spacing={3}>
+      {softwares.map((software, i) => (
+        <Grid key={i} item xs={12} sm={6} md={4}>
+          <Software {...software} />
+        </Grid>
+      ))}
+    </Grid>
+  </Box>
 );
 
 export default Softwares;

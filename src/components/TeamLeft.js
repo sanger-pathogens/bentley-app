@@ -5,7 +5,7 @@ import team from '../content/team';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Person = ({ name, role, imageUrl, description, imageLeft }) => (
-  <Box p={2}>
+  <Box pt={2} pb={2}>
     <Grid container spacing={2}>
       <Grid item xs={6} md={4} lg={3} xl={2}>
         <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
