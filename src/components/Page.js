@@ -21,11 +21,11 @@ const useStyles = makeStyles({
   },
 });
 
-const Page = ({ children }) => {
+const Page = ({ header, footer, children }) => {
   const classes = useStyles();
   return (
     <Paper className={classes.page}>
-      <Header />
+      {header ? header : null}
       <Grid
         container
         justify="center"
@@ -36,7 +36,7 @@ const Page = ({ children }) => {
           {children}
         </Grid>
       </Grid>
-      <Footer />
+      {footer ? footer : null}
     </Paper>
   );
 };

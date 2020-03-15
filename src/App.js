@@ -14,6 +14,7 @@ import PageTeamVariants from './components/PageTeamVariants';
 import PageResearchVariants from './components/PageResearchVariants';
 import PageSoftwareVariants from './components/PageSoftwareVariants';
 import PagePublications from './components/PagePublications';
+import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
@@ -76,6 +77,9 @@ const App = () => (
           </Route>
           <Route exact path="/publications">
             <PagePublications />
+          </Route>
+          <Route exact path="/demo/scroll-with-navbar">
+            <PageHomeScrollWithNavBar />
           </Route>
         </Switch>
       </Router>

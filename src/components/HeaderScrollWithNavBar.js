@@ -8,19 +8,19 @@ const Header = () => (
         <Typography>Bentley Group</Typography>
       </Grid>
       <Grid item>
-        <Button color="inherit" href="/about" component={Link}>
+        <Button color="inherit" href="#about" component={Link}>
           About Us
         </Button>
-        <Button color="inherit" href="/research" component={Link}>
+        <Button color="inherit" href="#research" component={Link}>
           Research
         </Button>
-        <Button color="inherit" href="/software" component={Link}>
+        <Button color="inherit" href="#software" component={Link}>
           Software
         </Button>
-        <Button color="inherit" href="/team" component={Link}>
+        <Button color="inherit" href="#team" component={Link}>
           Team
         </Button>
-        <Button color="inherit" href="/publications" component={Link}>
+        <Button color="inherit" href="#publications" component={Link}>
           Publications
         </Button>
       </Grid>
