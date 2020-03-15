@@ -72,7 +72,7 @@ const App = () => (
           <Route exact path="/team-variants">
             <PageTeamVariants />
           </Route>
-          <Route exact path="/research-variants">
+          <Route exact path="/tree-of-life">
             <PageResearchVariants />
           </Route>
           <Route exact path="/software-variants">

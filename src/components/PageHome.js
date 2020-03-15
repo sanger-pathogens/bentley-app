@@ -25,6 +25,12 @@ const PageHome = () => {
       <Typography variant="h6">
         <Link href="/software-variants">Software</Link>
       </Typography>
+      <Typography variant="h2">Possible interactive charts</Typography>
+      <Typography variant="h6">
+        <Link href="/tree-of-life">
+          Tree of life (highlighting our species)
+        </Link>
+      </Typography>
       <Typography variant="h2">Demos of site</Typography>
       <Typography variant="h6">
         <Link href="/demo/scroll-with-navbar">Long scroll with navbar</Link>
