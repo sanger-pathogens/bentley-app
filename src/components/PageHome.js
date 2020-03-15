@@ -18,6 +18,10 @@ import Page from './Page';
 const PageHome = () => {
   return (
     <Page>
+      <Typography variant="h2">Full site demo</Typography>
+      <Typography variant="h6">
+        <Link href="/demo/scroll-with-navbar">Long scroll with navbar</Link>
+      </Typography>
       <Typography variant="h2">Variants for different sections</Typography>
       <Typography variant="h6">
         <Link href="/team-variants">Team</Link>
@@ -30,10 +34,6 @@ const PageHome = () => {
         <Link href="/tree-of-life">
           Tree of life (highlighting our species)
         </Link>
-      </Typography>
-      <Typography variant="h2">Demos of site</Typography>
-      <Typography variant="h6">
-        <Link href="/demo/scroll-with-navbar">Long scroll with navbar</Link>
       </Typography>
     </Page>
     // <React.Fragment>
