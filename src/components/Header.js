@@ -1,5 +1,7 @@
 import React from 'react';
-import { Box, Grid, Button, Typography, Link } from '@material-ui/core';
+import { Box, Grid, Button, Typography } from '@material-ui/core';
+
+import Link from './Link';
 
 const Header = () => (
   <Box m={4}>

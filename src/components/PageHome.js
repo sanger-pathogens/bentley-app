@@ -1,7 +1,8 @@
 import React from 'react';
-import { Typography, Link } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 // import raw from 'raw.macro';
 
+import Link from './Link';
 import Page from './Page';
 // import WorldMap from './WorldMap';
 // import Content from './Content';
