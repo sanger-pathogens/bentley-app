@@ -23,6 +23,9 @@ const PageHome = () => {
       <Typography>
         <Link href="/demo/scroll-with-navbar">Long scroll with navbar</Link>
       </Typography>
+      <Typography>
+        <Link href="/demo/scroll-with-sidenav">Long scroll with side menu</Link>
+      </Typography>
       <Typography variant="h4">Variants for different sections</Typography>
       <Typography>
         <Link href="/team-variants">Team</Link>

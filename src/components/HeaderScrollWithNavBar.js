@@ -8,8 +8,18 @@ import {
   Link,
   useScrollTrigger,
 } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+
+import navigationAnchored from '../content/navigationAnchored';
+
+const useStyles = makeStyles(theme => ({
+  appBar: {
+    zIndex: theme.zIndex.drawer + 1,
+  },
+}));
 
 const Header = () => {
+  const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 0,
@@ -21,6 +31,7 @@ const Header = () => {
       color={trigger ? 'inherit' : 'transparent'}
       style={{ borderBottom: trigger ? '2px solid white' : 'none' }}
       elevation={0}
+      className={classes.appBar}
     >
       <Toolbar variant="dense">
         <Grid container alignItems="center" justify="space-between" spacing={4}>
@@ -28,21 +39,11 @@ const Header = () => {
             {trigger ? <Typography>Bentley Group</Typography> : null}
           </Grid>
           <Grid item>
-            <Button color="inherit" href="#about" component={Link}>
-              About Us
-            </Button>
-            <Button color="inherit" href="#research" component={Link}>
-              Research
-            </Button>
-            <Button color="inherit" href="#software" component={Link}>
-              Software
-            </Button>
-            <Button color="inherit" href="#team" component={Link}>
-              Team
-            </Button>
-            <Button color="inherit" href="#publications" component={Link}>
-              Publications
-            </Button>
+            {navigationAnchored.map((item, i) => (
+              <Button key={i} color="inherit" href={item.url} component={Link}>
+                {item.label}
+              </Button>
+            ))}
           </Grid>
         </Grid>
       </Toolbar>
