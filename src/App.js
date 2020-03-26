@@ -11,7 +11,7 @@ import 'typeface-inter';
 
 import PageHome from './components/PageHome';
 import PageTeamVariants from './components/PageTeamVariants';
-import PageResearchVariants from './components/PageResearchVariants';
+import PageTreeOfLife from './components/PageTreeOfLife';
 import PageSoftwareVariants from './components/PageSoftwareVariants';
 import PagePublications from './components/PagePublications';
 import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
@@ -74,7 +74,7 @@ const App = () => (
             <PageTeamVariants />
           </Route>
           <Route exact path="/tree-of-life">
-            <PageResearchVariants />
+            <PageTreeOfLife />
           </Route>
           <Route exact path="/software-variants">
             <PageSoftwareVariants />

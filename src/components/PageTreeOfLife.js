@@ -7,7 +7,7 @@ import TreeOfLife from './TreeOfLife';
 // import TeamLeftRight from './TeamLeftRight';
 // import TeamLeft from './TeamLeft';
 
-const PageTeamVariants = () => {
+const PageTreeOfLife = () => {
   return (
     <Page>
       <Box>
@@ -33,4 +33,4 @@ const PageTeamVariants = () => {
   );
 };
 
-export default PageTeamVariants;
+export default PageTreeOfLife;
