@@ -18,7 +18,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Header = () => {
+const Header = ({ anchored = true }) => {
   const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -40,7 +40,12 @@ const Header = () => {
           </Grid>
           <Grid item>
             {navigationAnchored.map((item, i) => (
-              <Button key={i} color="inherit" href={item.url} component={Link}>
+              <Button
+                key={i}
+                color="inherit"
+                href={`${anchored ? '#' : ''}${item.url}`}
+                component={Link}
+              >
                 {item.label}
               </Button>
             ))}

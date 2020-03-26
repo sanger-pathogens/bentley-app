@@ -1,7 +1,7 @@
 [
-    { "label": "About Us", "url": "#about"},
-    { "label": "Research", "url": "#research"},
-    { "label": "Software", "url": "#software"},
-    { "label": "Team", "url": "#team"},
-    { "label": "Publications", "url": "#publications"}
+    { "label": "About Us", "url": "about"},
+    { "label": "Research", "url": "research"},
+    { "label": "Software", "url": "software"},
+    { "label": "Team", "url": "team"},
+    { "label": "Publications", "url": "publications"}
 ]
