@@ -16,6 +16,7 @@ import PageWorldMap from './components/PageWorldMap';
 import PageSoftwareVariants from './components/PageSoftwareVariants';
 import PagePublications from './components/PagePublications';
 import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
+import PageHomeScrollWithNavBarLight from './components/PageHomeScrollWithNavBarLight';
 import PageHomeScrollWithSideNav from './components/PageHomeScrollWithSideNav';
 import PageHomePaginated from './components/PageHomePaginated';
 
@@ -99,6 +100,10 @@ const App = () => (
           <Route
             path="/demo-scroll-with-navbar"
             component={PageHomeScrollWithNavBar}
+          />
+          <Route
+            path="/demo-scroll-with-navbar-light"
+            component={PageHomeScrollWithNavBarLight}
           />
           <Route path="/demo-scroll-with-sidenav">
             <PageHomeScrollWithSideNav />

@@ -24,11 +24,17 @@ const PageHome = () => {
         <Link href="/demo-scroll-with-navbar">Long scroll with navbar</Link>
       </Typography>
       <Typography>
+        <Link href="/demo-scroll-with-navbar-light">
+          Long scroll with navbar (light theme)
+        </Link>
+      </Typography>
+      <Typography>
         <Link href="/demo-scroll-with-sidenav">Long scroll with side menu</Link>
       </Typography>
       <Typography>
         <Link href="/demo-paginated-with-navbar">Paginated with navbar</Link>
       </Typography>
+
       <Typography variant="h4">Variants for different sections</Typography>
       <Typography>
         <Link href="/team-variants">Team</Link>
