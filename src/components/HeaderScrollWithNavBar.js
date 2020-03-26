@@ -10,15 +10,13 @@ import {
 } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-import navigationAnchored from '../content/navigationAnchored';
-
 const useStyles = makeStyles(theme => ({
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
   },
 }));
 
-const Header = ({ anchored = true }) => {
+const Header = ({ navigation }) => {
   const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -39,13 +37,8 @@ const Header = ({ anchored = true }) => {
             {trigger ? <Typography>Bentley Group</Typography> : null}
           </Grid>
           <Grid item>
-            {navigationAnchored.map((item, i) => (
-              <Button
-                key={i}
-                color="inherit"
-                href={`${anchored ? '#' : ''}${item.url}`}
-                component={Link}
-              >
+            {navigation.map((item, i) => (
+              <Button key={i} color="inherit" href={item.url} component={Link}>
                 {item.label}
               </Button>
             ))}

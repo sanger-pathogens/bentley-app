@@ -17,6 +17,7 @@ import PageSoftwareVariants from './components/PageSoftwareVariants';
 import PagePublications from './components/PagePublications';
 import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
 import PageHomeScrollWithSideNav from './components/PageHomeScrollWithSideNav';
+import PageHomePaginated from './components/PageHomePaginated';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
@@ -80,27 +81,32 @@ const App = () => (
           <Route exact path="/">
             <PageHome />
           </Route>
-          <Route exact path="/team-variants">
+          <Route path="/team-variants">
             <PageTeamVariants />
           </Route>
-          <Route exact path="/tree-of-life">
+          <Route path="/tree-of-life">
             <PageTreeOfLife />
           </Route>
-          <Route exact path="/world-map">
+          <Route path="/world-map">
             <PageWorldMap />
           </Route>
-          <Route exact path="/software-variants">
+          <Route path="/software-variants">
             <PageSoftwareVariants />
           </Route>
-          <Route exact path="/publications">
+          <Route path="/publications">
             <PagePublications />
           </Route>
-          <Route exact path="/demo/scroll-with-navbar">
-            <PageHomeScrollWithNavBar />
-          </Route>
-          <Route exact path="/demo/scroll-with-sidenav">
+          <Route
+            path="/demo-scroll-with-navbar"
+            component={PageHomeScrollWithNavBar}
+          />
+          <Route path="/demo-scroll-with-sidenav">
             <PageHomeScrollWithSideNav />
           </Route>
+          <Route
+            path="/demo-paginated-with-navbar"
+            component={PageHomePaginated}
+          />
         </Switch>
       </Router>
     </ThemeProvider>

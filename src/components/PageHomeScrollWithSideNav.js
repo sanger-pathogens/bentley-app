@@ -14,7 +14,17 @@ configureAnchors({ offset: -60, scrollDuration: 200 });
 const sectionPaddingTop = 8;
 
 const PageHomeScrollWithSideNav = () => (
-  <Page sideNav={<SideNav />} footer={<Footer />}>
+  <Page
+    sideNav={
+      <SideNav
+        navigation={sections.map(({ label, url }) => ({
+          label,
+          url: `#${url}`,
+        }))}
+      />
+    }
+    footer={<Footer />}
+  >
     <Box>
       <Typography variant="h1" align="center">
         Bentley Group

@@ -14,7 +14,17 @@ configureAnchors({ offset: -60, scrollDuration: 200 });
 const sectionPaddingTop = 8;
 
 const PageHomeScrollWithNavBar = () => (
-  <Page header={<HeaderScrollWithNavBar />} footer={<Footer />}>
+  <Page
+    header={
+      <HeaderScrollWithNavBar
+        navigation={sections.map(({ label, url }) => ({
+          label,
+          url: `#${url}`,
+        }))}
+      />
+    }
+    footer={<Footer />}
+  >
     <Box>
       <Typography variant="h1" align="center">
         Bentley Group
@@ -23,7 +33,9 @@ const PageHomeScrollWithNavBar = () => (
         <Box key={i} pt={sectionPaddingTop}>
           <ScrollableAnchor id={section.url}>
             <Box>
-              <Typography variant="h2">{section.title}</Typography>
+              <Typography variant="h2" gutterBottom>
+                {section.title}
+              </Typography>
               <section.contentComponent />
             </Box>
           </ScrollableAnchor>
