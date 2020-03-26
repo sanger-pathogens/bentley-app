@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Link } from '@material-ui/core';
 
 import Page from './Page';
-import ReseachLongScroll from './ResearchLongScroll';
+// import ReseachLongScroll from './ResearchLongScroll';
 import TreeOfLife from './TreeOfLife';
 // import TeamLeftRight from './TeamLeftRight';
 // import TeamLeft from './TeamLeft';

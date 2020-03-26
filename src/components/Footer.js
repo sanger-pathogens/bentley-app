@@ -1,8 +1,8 @@
 import React from 'react';
-import { Box, Grid, IconButton, Link } from '@material-ui/core';
-import AlternateEmailOutlinedIcon from '@material-ui/icons/AlternateEmailOutlined';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { Box, Grid } from '@material-ui/core';
+// import AlternateEmailOutlinedIcon from '@material-ui/icons/AlternateEmailOutlined';
+// import TwitterIcon from '@material-ui/icons/Twitter';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Funders from './Funders';
