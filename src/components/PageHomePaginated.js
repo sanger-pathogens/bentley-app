@@ -12,6 +12,7 @@ const PageHomeScrollWithNavBar = ({ match }) => {
     <Page
       header={
         <HeaderScrollWithNavBar
+          alwaysShowHomeButton
           navigation={sections.map(({ label, url }) => ({
             label,
             url: `${match.url}/${url}`,

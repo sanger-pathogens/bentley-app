@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const Header = ({ navigation }) => {
+const Header = ({ navigation, alwaysShowHomeButton = false }) => {
   const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,
@@ -34,7 +34,12 @@ const Header = ({ navigation }) => {
       <Toolbar variant="dense">
         <Grid container alignItems="center" justify="space-between" spacing={4}>
           <Grid item>
-            {trigger ? (
+            {alwaysShowHomeButton ? (
+              <Button color="inherit" href="/" component={Link}>
+                Bentley Group
+              </Button>
+            ) : null}
+            {!alwaysShowHomeButton && trigger ? (
               <Button color="inherit" href="/" component={Link}>
                 Bentley Group
               </Button>
