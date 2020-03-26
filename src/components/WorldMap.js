@@ -1,8 +1,15 @@
 import React, { useRef } from 'react';
+import { Tooltip } from '@material-ui/core';
 import useMeasure from 'use-measure';
 import { geoNaturalEarth1, geoPath, geoGraticule10 } from 'd3';
 import { feature } from 'topojson';
 import world from 'world-atlas/countries-110m.json';
+
+const Circle = React.forwardRef((props, ref) => (
+  <circle {...props} ref={ref}>
+    Bin
+  </circle>
+));
 
 const WorldMap = ({ pointGroups }) => {
   // update if container dimensions change
@@ -50,7 +57,16 @@ const WorldMap = ({ pointGroups }) => {
                     point.longitude,
                     point.latitude,
                   ]);
-                  return <circle key={j} {...{ cx, cy, r: 4 }} />;
+                  // return <circle key={j} {...{ cx, cy, r: 4 }} />;
+                  return (
+                    <Tooltip
+                      key={j}
+                      title={group.tooltipContentRenderer(point)}
+                      arrow
+                    >
+                      <Circle {...{ cx, cy, r: 4 }} />
+                    </Tooltip>
+                  );
                 })}
               </g>
             ))}

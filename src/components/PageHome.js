@@ -39,6 +39,9 @@ const PageHome = () => {
           Tree of life (highlighting our species)
         </Link>
       </Typography>
+      <Typography>
+        <Link href="/world-map">World map</Link>
+      </Typography>
       <Typography variant="h4">Known TODOs</Typography>
       <Typography>
         <ul>

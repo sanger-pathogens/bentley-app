@@ -12,6 +12,7 @@ import 'typeface-inter';
 import PageHome from './components/PageHome';
 import PageTeamVariants from './components/PageTeamVariants';
 import PageTreeOfLife from './components/PageTreeOfLife';
+import PageWorldMap from './components/PageWorldMap';
 import PageSoftwareVariants from './components/PageSoftwareVariants';
 import PagePublications from './components/PagePublications';
 import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
@@ -58,6 +59,15 @@ const theme = responsiveFontSizes(
         underline: 'none',
       },
     },
+    // overrides: {
+    //   MuiTooltip: {
+    //     tooltip: {
+    //       // color: '#f1f1f1',
+    //       backgroundColor: 'primary',
+    //       // rippleBackgroundColor: 'blue',
+    //     },
+    //   },
+    // },
   })
 );
 
@@ -75,6 +85,9 @@ const App = () => (
           </Route>
           <Route exact path="/tree-of-life">
             <PageTreeOfLife />
+          </Route>
+          <Route exact path="/world-map">
+            <PageWorldMap />
           </Route>
           <Route exact path="/software-variants">
             <PageSoftwareVariants />
