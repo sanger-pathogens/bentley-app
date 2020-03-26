@@ -7,7 +7,9 @@ const Header = () => (
   <Box m={4}>
     <Grid container alignItems="center" justify="space-between" spacing={4}>
       <Grid item>
-        <Typography>Bentley Group</Typography>
+        <Button color="inherit" href="/" component={Link}>
+          Bentley Group
+        </Button>
       </Grid>
       <Grid item>
         <Button color="inherit" href="/about" component={Link}>

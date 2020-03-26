@@ -6,12 +6,15 @@ import {
   ListItem,
   ListItemText,
   Typography,
+  Button,
 } from '@material-ui/core';
 
 const SideNav = ({ navigation }) => (
   <React.Fragment>
     <Box p={2}>
-      <Typography variant="h5">Bentley Group</Typography>
+      <Button color="inherit" href="/" component={Link}>
+        <Typography variant="h5">Bentley Group</Typography>
+      </Button>
     </Box>
     <Box pt={2}>
       <List>

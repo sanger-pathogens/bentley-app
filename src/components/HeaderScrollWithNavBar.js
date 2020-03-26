@@ -34,7 +34,11 @@ const Header = ({ navigation }) => {
       <Toolbar variant="dense">
         <Grid container alignItems="center" justify="space-between" spacing={4}>
           <Grid item>
-            {trigger ? <Typography>Bentley Group</Typography> : null}
+            {trigger ? (
+              <Button color="inherit" href="/" component={Link}>
+                Bentley Group
+              </Button>
+            ) : null}
           </Grid>
           <Grid item>
             {navigation.map((item, i) => (
