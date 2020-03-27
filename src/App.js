@@ -9,16 +9,7 @@ import {
 
 import 'typeface-inter';
 
-import PageHome from './components/PageHome';
-import PageTeamVariants from './components/PageTeamVariants';
-import PageTreeOfLife from './components/PageTreeOfLife';
-import PageWorldMap from './components/PageWorldMap';
-import PageSoftwareVariants from './components/PageSoftwareVariants';
-import PagePublications from './components/PagePublications';
 import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
-import PageHomeScrollWithNavBarLight from './components/PageHomeScrollWithNavBarLight';
-import PageHomeScrollWithSideNav from './components/PageHomeScrollWithSideNav';
-import PageHomePaginated from './components/PageHomePaginated';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
@@ -79,39 +70,8 @@ const App = () => (
     <ThemeProvider theme={theme}>
       <Router>
         <Switch>
-          <Route exact path="/">
-            <PageHome />
-          </Route>
-          <Route path="/team-variants">
-            <PageTeamVariants />
-          </Route>
-          <Route path="/tree-of-life">
-            <PageTreeOfLife />
-          </Route>
-          <Route path="/world-map">
-            <PageWorldMap />
-          </Route>
-          <Route path="/software-variants">
-            <PageSoftwareVariants />
-          </Route>
-          <Route path="/publications">
-            <PagePublications />
-          </Route>
-          <Route
-            path="/demo-scroll-with-navbar"
-            component={PageHomeScrollWithNavBar}
-          />
-          <Route
-            path="/demo-scroll-with-navbar-light"
-            component={PageHomeScrollWithNavBarLight}
-          />
-          <Route path="/demo-scroll-with-sidenav">
-            <PageHomeScrollWithSideNav />
-          </Route>
-          <Route
-            path="/demo-paginated-with-navbar"
-            component={PageHomePaginated}
-          />
+          <Route exact path="/" component={PageHomeScrollWithNavBar} />
+          {/* <Route path="*" component={Page404} /> */}
         </Switch>
       </Router>
     </ThemeProvider>
