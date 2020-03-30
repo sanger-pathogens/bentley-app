@@ -9,7 +9,7 @@ import {
 
 import 'typeface-inter';
 
-import PageHomeScrollWithNavBar from './components/PageHomeScrollWithNavBar';
+import PageHome from './components/PageHome';
 
 const theme = responsiveFontSizes(
   createMuiTheme({
@@ -70,7 +70,7 @@ const App = () => (
     <ThemeProvider theme={theme}>
       <Router>
         <Switch>
-          <Route exact path="/" component={PageHomeScrollWithNavBar} />
+          <Route exact path="/" component={PageHome} />
           {/* <Route path="*" component={Page404} /> */}
         </Switch>
       </Router>
