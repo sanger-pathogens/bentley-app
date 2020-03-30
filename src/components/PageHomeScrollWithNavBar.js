@@ -3,7 +3,7 @@ import { Box, Typography } from '@material-ui/core';
 import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor';
 
 import Page from './Page';
-import HeaderScrollWithNavBar from './HeaderScrollWithNavBar';
+import Header from './Header';
 import Footer from './Footer';
 import sections from '../content/sections';
 
@@ -16,7 +16,7 @@ const sectionPaddingTop = 8;
 const PageHomeScrollWithNavBar = () => (
   <Page
     header={
-      <HeaderScrollWithNavBar
+      <Header
         navigation={sections.map(({ label, url }) => ({
           label,
           url: `#${url}`,
