@@ -1,0 +1,146 @@
+[
+    {
+        "country": "Malawi",
+        "latitude": -13.254300117492676,
+        "longitude": 34.30149841308594,
+        "affiliation": "MLW;Malawi Liverpool Wellcome Trust"
+    },
+    {
+        "country": "Gambia",
+        "latitude": 13.44320011138916,
+        "longitude": -15.310099601745605,
+        "affiliation": "MRC Unit The Gambia;MRC The Gambia Unit"
+    },
+    {
+        "country": "South Africa",
+        "latitude": -30.559499740600586,
+        "longitude": 22.9375,
+        "affiliation": "NICD"
+    },
+    {
+        "country": "Slovenia",
+        "latitude": 46.15119934082031,
+        "longitude": 14.995499610900879,
+        "affiliation": "NLZOH;Institute of Microbiology and Immunology;National Laboratory of Health Environment and Food;National Laboratory of Health, Environment and Food"
+    },
+    {
+        "country": "Togo",
+        "latitude": 8.619540214538574,
+        "longitude": 0.8247820138931274,
+        "affiliation": "AMP"
+    },
+    {
+        "country": "Malawi",
+        "latitude": -13.254300117492676,
+        "longitude": 34.30149841308594,
+        "affiliation": "Sanger"
+    },
+    {
+        "country": "Thailand",
+        "latitude": 15.869999885559082,
+        "longitude": 100.99299621582031,
+        "affiliation": "CAMBODIA OXFORD MEDICAL RESEARCH UNIT;Shoklo-Malaria-Research-Unit"
+    },
+    {
+        "country": "Morocco",
+        "latitude": 31.79170036315918,
+        "longitude": -7.092619895935059,
+        "affiliation": "Faculty of Medicine and Pharmacy of Casablanca"
+    },
+    {
+        "country": "Hong Kong",
+        "latitude": 22.396400451660156,
+        "longitude": 114.10900115966797,
+        "affiliation": "The University of Hong Kong"
+    },
+    {
+        "country": "Poland",
+        "latitude": 51.91939926147461,
+        "longitude": 19.145099639892578,
+        "affiliation": "National Medicines Institute"
+    },
+    {
+        "country": "Turkey",
+        "latitude": 38.96369934082031,
+        "longitude": 35.24330139160156,
+        "affiliation": "HACETTEPE UNIVERSITY"
+    },
+    {
+        "country": "India",
+        "latitude": 20.593700408935547,
+        "longitude": 78.96289825439453,
+        "affiliation": "Kempegowda Institute of medical sciences"
+    },
+    {
+        "country": "Pakistan",
+        "latitude": 30.37529945373535,
+        "longitude": 69.34510040283203,
+        "affiliation": "The Aga Khan University Hospital"
+    },
+    {
+        "country": "Bangladesh",
+        "latitude": 23.684999465942383,
+        "longitude": 90.3563003540039,
+        "affiliation": "CHRF (DSH)"
+    },
+    {
+        "country": "Netherlands",
+        "latitude": 52.5,
+        "longitude": 5.75,
+        "affiliation": "Academisch Medisch Centrum"
+    },
+    {
+        "country": "Russia",
+        "latitude": 61.52399826049805,
+        "longitude": 105.31900024414062,
+        "affiliation": "MGRIEM"
+    },
+    {
+        "country": "Brazil",
+        "latitude": -14.234999656677246,
+        "longitude": -51.92530059814453,
+        "affiliation": "INSTITUTE ADOLFO LUTZ (IAL)"
+    },
+    {
+        "country": "Ghana",
+        "latitude": 7.946529865264893,
+        "longitude": -1.0231900215148926,
+        "affiliation": "UNIVERSITY OF GHANA"
+    },
+    {
+        "country": "New Zealand",
+        "latitude": -40.90060043334961,
+        "longitude": 174.88600158691406,
+        "affiliation": "The University of Auckland"
+    },
+    {
+        "country": "Belarus",
+        "latitude": 53.709800720214844,
+        "longitude": 27.953399658203125,
+        "affiliation": "The Republican Research and Practical Center for Epidemiology and Microbiology"
+    },
+    {
+        "country": "Israel",
+        "latitude": 31.046100616455078,
+        "longitude": 34.851600646972656,
+        "affiliation": "Soroka University Medical Center"
+    },
+    {
+        "country": "Thailand",
+        "latitude": 15.869999885559082,
+        "longitude": 100.99299621582031,
+        "affiliation": "Shoklo-Malaria-Research-Unit"
+    },
+    {
+        "country": "Nigeria",
+        "latitude": 9.081999778747559,
+        "longitude": 8.67527961730957,
+        "affiliation": "University of Nebraska Medical Center"
+    },
+    {
+        "country": "Argentina",
+        "latitude": -38.416099548339844,
+        "longitude": -63.61669921875,
+        "affiliation": "INEI – ANLIS"
+    }
+]
