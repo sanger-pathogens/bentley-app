@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import anime from 'animejs';
+import useMeasure from 'use-measure';
+import { useMediaQuery } from '@material-ui/core';
 
 // see https://codepen.io/alaingalvan/embed/rrZXYB/?height=480&theme-id=0&default-tab=js,result&embed-version=2
 class Anime extends React.Component {
@@ -54,44 +56,51 @@ const paths = [
 ];
 
 const AnimatedTextPath = () => {
+  const nodeRef = useRef();
+  const isWide = useMediaQuery(theme => theme.breakpoints.up('sm'));
+  const size = useMeasure(nodeRef);
+
+  const { width } = size;
+
   return (
-    <svg
-      width="668.026"
-      height="104.176"
-      viewBox="-5 -5 668.026 104.176"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g
-        id="svgGroup"
-        strokeLinecap="round"
-        fillRule="evenodd"
-        fontSize="9pt"
-        stroke="white"
-        strokeWidth={1}
-        fill="none"
+    <div ref={nodeRef} style={{ width: '100%' }}>
+      <svg
+        width={isWide ? width / 2 : width}
+        viewBox="-5 -5 668.026 104.176"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <Anime
-          easing="easeOutQuad"
-          duration={3000}
-          //   direction="alternate"
-          //   loop={true}
-          delay={(el, index) => index * 200}
-          strokeDashoffset={el => {
-            var pathLength = 0;
-            if (el.getTotalLength) {
-              pathLength = el.getTotalLength();
-              el.setAttribute('stroke-dasharray', pathLength);
-            }
-            return [pathLength, 0];
-          }}
-          opacity={[0, 1]}
+        <g
+          id="svgGroup"
+          strokeLinecap="round"
+          fillRule="evenodd"
+          fontSize="9pt"
+          stroke="white"
+          strokeWidth={1}
+          fill="none"
         >
-          {paths.map((d, i) => (
-            <path key={i} d={d} />
-          ))}
-        </Anime>
-      </g>
-    </svg>
+          <Anime
+            easing="easeOutQuad"
+            duration={3000}
+            //   direction="alternate"
+            //   loop={true}
+            delay={(el, index) => index * 200}
+            strokeDashoffset={el => {
+              var pathLength = 0;
+              if (el.getTotalLength) {
+                pathLength = el.getTotalLength();
+                el.setAttribute('stroke-dasharray', pathLength);
+              }
+              return [pathLength, 0];
+            }}
+            opacity={[0, 1]}
+          >
+            {paths.map((d, i) => (
+              <path key={i} d={d} />
+            ))}
+          </Anime>
+        </g>
+      </svg>
+    </div>
   );
 };
 
