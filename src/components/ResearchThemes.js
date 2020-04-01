@@ -1,12 +1,12 @@
 import React from 'react';
 import raw from 'raw.macro';
 
-import Content from './Content';
+import Markdown from './Markdown';
 
 const mdResearchThemes = raw('../content/research-themes.md');
 
 const ResearchThemes = () => {
-  return <Content md={mdResearchThemes} />;
+  return <Markdown md={mdResearchThemes} />;
 };
 
 export default ResearchThemes;

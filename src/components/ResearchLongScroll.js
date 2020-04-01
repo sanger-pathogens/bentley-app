@@ -1,12 +1,12 @@
 import React from 'react';
 import raw from 'raw.macro';
 
-import Content from './Content';
+import Markdown from './Markdown';
 
 const mdResearch = raw('../content/research-themes.md');
 
 const ResearchLongScroll = () => {
-  return <Content md={mdResearch} />;
+  return <Markdown md={mdResearch} />;
 };
 
 export default ResearchLongScroll;

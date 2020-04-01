@@ -8,7 +8,7 @@ import Publications from '../components/Publications';
 import Software from '../components/Software';
 import Team from '../components/Team';
 import WorldMap from '../components/WorldMap';
-import Content from '../components/Content';
+import Markdown from '../components/Markdown';
 
 const mdVisitors = raw('../content/visitors.md');
 const mdAlumni = raw('../content/alumni.md');
@@ -45,11 +45,11 @@ export default [
         <Typography variant="h4" style={{ paddingTop: '1rem' }}>
           Visitors
         </Typography>
-        <Content md={mdVisitors} />
+        <Markdown md={mdVisitors} />
         <Typography variant="h4" style={{ paddingTop: '1rem' }}>
           Alumni
         </Typography>
-        <Content md={mdAlumni} />
+        <Markdown md={mdAlumni} />
       </React.Fragment>
     ),
   },

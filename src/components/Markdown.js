@@ -1,5 +1,5 @@
 import React from 'react';
-import Markdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
 import { Typography, Link } from '@material-ui/core';
 
 const renderers = {
@@ -13,6 +13,8 @@ const renderers = {
   link: props => <Link {...props} />,
 };
 
-const Content = ({ md }) => <Markdown source={md} renderers={renderers} />;
+const Markdown = ({ md }) => (
+  <ReactMarkdown source={md} renderers={renderers} />
+);
 
-export default Content;
+export default Markdown;

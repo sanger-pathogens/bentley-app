@@ -1,12 +1,12 @@
 import React from 'react';
 import raw from 'raw.macro';
 
-import Content from './Content';
+import Markdown from './Markdown';
 
 const mdAboutUs = raw('../content/about-us.md');
 
 const AboutUs = () => {
-  return <Content md={mdAboutUs} />;
+  return <Markdown md={mdAboutUs} />;
 };
 
 export default AboutUs;
