@@ -29,9 +29,6 @@ const PageHome = () => (
   >
     <SplashImage />
     <Box>
-      <Typography variant="h1" align="center">
-        Bentley Group
-      </Typography>
       {sections.map((section, i) => (
         <Section key={i}>
           <Box pt={sectionPaddingTop}>
