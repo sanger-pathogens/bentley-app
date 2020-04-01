@@ -8,6 +8,34 @@ import world from 'world-atlas/countries-110m.json';
 import junoAffiliates from '../content/juno-affiliates';
 import gpsAffiliates from '../content/gps-affiliates';
 
+const affiliates = Object.values(
+  [
+    ...junoAffiliates.map(d => ({ ...d, inJuno: true })),
+    ...gpsAffiliates.map(d => ({ ...d, inGPS: true })),
+  ].reduce((acc, d) => {
+    const { inJuno, inGPS, ...rest } = d;
+    // first visit
+    if (!acc[d.affiliation]) {
+      acc[d.affiliation] = {
+        ...rest,
+        projects: [],
+      };
+    }
+
+    // from juno
+    if (inJuno) {
+      acc[d.affiliation].projects.push('juno');
+    }
+
+    // from gps
+    if (inJuno) {
+      acc[d.affiliation].projects.push('gps');
+    }
+
+    return acc;
+  }, {})
+);
+
 const tooltipContentRenderer = d => (
   <Typography variant="subtitle2">
     <strong>{d.affiliation}</strong>
@@ -17,15 +45,8 @@ const tooltipContentRenderer = d => (
 );
 const pointGroups = [
   {
-    name: 'Juno',
-    fill: '#F9A03F',
-    points: junoAffiliates,
-    tooltipContentRenderer,
-  },
-  {
-    name: 'GPS',
-    fill: '#9AD4D6',
-    points: gpsAffiliates,
+    fill: '#00bcd4',
+    points: affiliates,
     tooltipContentRenderer,
   },
 ];
@@ -82,7 +103,6 @@ const WorldMap = () => {
                     point.longitude,
                     point.latitude,
                   ]);
-                  // return <circle key={j} {...{ cx, cy, r: 4 }} />;
                   return (
                     <Tooltip
                       key={j}
@@ -94,27 +114,6 @@ const WorldMap = () => {
                   );
                 })}
               </g>
-            ))}
-          </g>
-        ) : null}
-        {pointGroups ? (
-          <g>
-            {pointGroups.map((group, i) => (
-              <React.Fragment key={i}>
-                <circle
-                  fill={group.fill}
-                  {...{ cx: 20, cy: 600 - 20 * (i + 1), r: 4 }}
-                />
-                <text
-                  stroke="none"
-                  fill="#999"
-                  alignmentBaseline="middle"
-                  x={30}
-                  y={600 - 20 * (i + 1)}
-                >
-                  {group.name}
-                </text>
-              </React.Fragment>
             ))}
           </g>
         ) : null}
