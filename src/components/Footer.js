@@ -69,7 +69,7 @@ const Footer = () => {
               <Typography variant="body1" align="right">
                 <Link
                   className={classes.footerLink}
-                  href={`https://github.com/opentargets/genetics-app/commit/${process.env.REACT_APP_GIT_REVISION}`}
+                  href={`https://github.com/sanger-pathogens/bentley-app/commit/${process.env.REACT_APP_GIT_REVISION}`}
                 >
                   {process.env.REACT_APP_GIT_REVISION}
                 </Link>
