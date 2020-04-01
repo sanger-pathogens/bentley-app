@@ -20,7 +20,6 @@ const Header = ({ navigation, alwaysShowHomeButton = false }) => {
       color={trigger ? 'inherit' : 'transparent'}
       style={{ borderBottom: trigger ? '2px solid white' : 'none' }}
       elevation={0}
-      // className={classes.appBar}
     >
       <Toolbar variant="dense">
         <Grid container alignItems="center" justify="space-between" spacing={4}>
