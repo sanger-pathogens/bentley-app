@@ -1,8 +1,8 @@
 import React from 'react';
-import { Grid, Paper } from '@material-ui/core';
+import { Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles({
   page: {
     minHeight: '100vh',
     display: 'flex',
@@ -10,29 +10,14 @@ const useStyles = makeStyles(theme => ({
     margin: 0,
     width: '100%',
   },
-  gridContainer: {
-    margin: 0,
-    padding: '24px',
-    width: '100%',
-    flex: '1 0 auto',
-  },
-}));
+});
 
 const Page = ({ header, footer, children }) => {
   const classes = useStyles();
   return (
     <Paper className={classes.page}>
       {header ? header : null}
-      <Grid
-        container
-        justify="center"
-        spacing={1}
-        className={classes.gridContainer}
-      >
-        <Grid item xs={12} md={10} lg={8}>
-          {children}
-        </Grid>
-      </Grid>
+      {children}
       {footer ? footer : null}
     </Paper>
   );
