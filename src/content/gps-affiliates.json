@@ -30,19 +30,19 @@
     "latitude": 31.2516276
   },
   {
-    "country": "USA",
+    "country": "United States",
     "affiliation": "Bill & Melinda Gates Foundation",
     "longitude": -122.3300624,
     "latitude": 47.6038321
   },
   {
-    "country": "USA",
+    "country": "United States",
     "affiliation": "CDC",
     "longitude": -84.3901849,
     "latitude": 33.7490987
   },
   {
-    "country": "USA",
+    "country": "United States",
     "affiliation": "CDC/NCIRD/DBD/RDB",
     "longitude": -84.3901849,
     "latitude": 33.7490987
@@ -120,7 +120,7 @@
     "latitude": 33.5950627
   },
   {
-    "country": "UK",
+    "country": "United Kingdom",
     "affiliation": "Imperial College London",
     "longitude": 0.1235817,
     "latitude": 52.2034823
@@ -228,7 +228,7 @@
     "latitude": 52.0458265
   },
   {
-    "country": "USA",
+    "country": "United States",
     "affiliation": "Rollins School of Public Health",
     "longitude": -84.3901849,
     "latitude": 33.7490987
@@ -246,7 +246,7 @@
     "latitude": 13.7542529
   },
   {
-    "country": "USA",
+    "country": "United States",
     "affiliation": "The Emory Global Health Institute",
     "longitude": -84.3901849,
     "latitude": 33.7490987
@@ -258,7 +258,7 @@
     "latitude": 53.902334
   },
   {
-    "country": "China ",
+    "country": "China",
     "affiliation": "The University of Hong Kong",
     "longitude": 114.1628131,
     "latitude": 22.2793278
@@ -288,7 +288,7 @@
     "latitude": 11.5
   },
   {
-    "country": "UK",
+    "country": "United Kingdom",
     "affiliation": "University of Cambridge",
     "longitude": 0.1235817,
     "latitude": 52.2034823
@@ -336,7 +336,7 @@
     "latitude": -26.2227778
   },
   {
-    "country": "UK",
+    "country": "United Kingdom",
     "affiliation": "Wellcome Sanger Institute",
     "longitude": 0.1235817,
     "latitude": 52.2034823
