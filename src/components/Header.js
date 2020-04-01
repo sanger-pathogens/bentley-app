@@ -8,7 +8,7 @@ import {
   useScrollTrigger,
 } from '@material-ui/core';
 
-const Header = ({ navigation, alwaysShowHomeButton = false }) => {
+const Header = ({ navigation }) => {
   const trigger = useScrollTrigger({
     disableHysteresis: true,
     threshold: 0,
@@ -24,12 +24,7 @@ const Header = ({ navigation, alwaysShowHomeButton = false }) => {
       <Toolbar variant="dense">
         <Grid container alignItems="center" justify="space-between" spacing={4}>
           <Grid item>
-            {alwaysShowHomeButton ? (
-              <Button color="inherit" href="/" component={Link}>
-                Bentley Group
-              </Button>
-            ) : null}
-            {!alwaysShowHomeButton && trigger ? (
+            {trigger ? (
               <Button color="inherit" href="/" component={Link}>
                 Bentley Group
               </Button>
