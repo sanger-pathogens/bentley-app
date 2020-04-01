@@ -7,7 +7,7 @@ import ResearchThemes from '../components/ResearchThemes';
 import Publications from '../components/Publications';
 import Software from '../components/Software';
 import Team from '../components/Team';
-import WorldMap from '../components/WorldMap';
+import Collaborators from '../components/Collaborators';
 import Markdown from '../components/Markdown';
 
 const mdVisitors = raw('../content/visitors.md');
@@ -57,7 +57,7 @@ export default [
     label: 'Collaborators',
     title: 'Collaborators',
     url: 'collaborators',
-    contentComponent: WorldMap,
+    contentComponent: Collaborators,
   },
   {
     label: 'Publications',

@@ -37,25 +37,23 @@ const affiliates = Object.values(
 );
 
 const tooltipContentRenderer = d => (
-  <Typography variant="subtitle2">
+  <Typography variant="subtitle2" align="center">
     <strong>{d.affiliation}</strong>
     <br />
     {d.country}
   </Typography>
 );
-const pointGroups = [
-  {
-    fill: '#00bcd4',
-    points: affiliates,
-    tooltipContentRenderer,
-  },
-];
 
 const Circle = React.forwardRef((props, ref) => (
   <circle {...props} ref={ref}>
     Bin
   </circle>
 ));
+// const Polygon = React.forwardRef((props, ref) => (
+//   <polygon {...props} ref={ref}>
+//     Bin
+//   </polygon>
+// ));
 
 const WorldMap = () => {
   // update if container dimensions change
@@ -75,6 +73,20 @@ const WorldMap = () => {
     .fitSize([width, height], outline);
   const path = geoPath().projection(projection);
 
+  const pointsWithScreenCoordinates = affiliates.map((point, j) => {
+    const [cx, cy] = projection([point.longitude, point.latitude]);
+    return { ...point, cx, cy };
+  });
+  // TODO: voronoi hover panels
+  // const voronoiGenerator = voronoi()
+  //   .extent([
+  //     [0, 0],
+  //     [width ? width : 0, height ? height : 0],
+  //   ])
+  //   .x(d => d.cx)
+  //   .y(d => d.cy);
+  // const hoverPanels = voronoiGenerator.polygons(pointsWithScreenCoordinates);
+
   return (
     <div ref={nodeRef} style={{ width: '100%', height: 600 }}>
       <svg
@@ -82,7 +94,7 @@ const WorldMap = () => {
         height={height}
         style={{ position: 'absolute' }}
         fill="none"
-        stroke="#444"
+        stroke="#666"
         viewBox={`0 0 ${width ? width : 0} ${height ? height : 0}`}
       >
         <g>
@@ -91,32 +103,29 @@ const WorldMap = () => {
         <g>
           <path d={path(outline)} />
           {features.map((feature, i) => (
-            <path fill="black" key={i} d={path(feature)} strokeWidth="1" />
+            <path
+              stroke="#444"
+              fill="#666"
+              key={i}
+              d={path(feature)}
+              strokeWidth="0.5"
+            />
           ))}
         </g>
-        {pointGroups ? (
-          <g>
-            {pointGroups.map((group, i) => (
-              <g key={i} fill={group.fill}>
-                {group.points.map((point, j) => {
-                  const [cx, cy] = projection([
-                    point.longitude,
-                    point.latitude,
-                  ]);
-                  return (
-                    <Tooltip
-                      key={j}
-                      title={group.tooltipContentRenderer(point)}
-                      arrow
-                    >
-                      <Circle {...{ cx, cy, r: 4 }} />
-                    </Tooltip>
-                  );
-                })}
-              </g>
-            ))}
-          </g>
-        ) : null}
+        {/* <g stroke="#00bcd4" fill="white">
+          {hoverPanels.map((panel, j) => (
+            <Tooltip key={j} title={tooltipContentRenderer(panel.data)} arrow>
+              <Polygon opacity={0} points={panel} />
+            </Tooltip>
+          ))}
+        </g> */}
+        <g stroke="black" fill="white">
+          {pointsWithScreenCoordinates.map((point, j) => (
+            <Tooltip key={j} title={tooltipContentRenderer(point)} arrow>
+              <Circle key={j} {...{ cx: point.cx, cy: point.cy, r: 4 }} />
+            </Tooltip>
+          ))}
+        </g>
       </svg>
     </div>
   );

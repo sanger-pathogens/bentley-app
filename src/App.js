@@ -52,15 +52,17 @@ const theme = responsiveFontSizes(
         underline: 'none',
       },
     },
-    // overrides: {
-    //   MuiTooltip: {
-    //     tooltip: {
-    //       // color: '#f1f1f1',
-    //       backgroundColor: 'primary',
-    //       // rippleBackgroundColor: 'blue',
-    //     },
-    //   },
-    // },
+    overrides: {
+      MuiTooltip: {
+        tooltip: {
+          color: '#424242',
+          backgroundColor: 'white',
+        },
+        arrow: {
+          color: 'white',
+        },
+      },
+    },
   })
 );
 
