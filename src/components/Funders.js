@@ -21,7 +21,7 @@ const Funders = () => {
       p={2}
     >
       <Typography variant="h4" gutterBottom>
-        Our Funders
+        Our funders
       </Typography>
       <Grid container>
         {funders.map((funder, i) => (
