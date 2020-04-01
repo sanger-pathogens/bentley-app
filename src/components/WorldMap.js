@@ -1,9 +1,34 @@
 import React, { useRef } from 'react';
-import { Tooltip } from '@material-ui/core';
+import { Tooltip, Typography } from '@material-ui/core';
 import useMeasure from 'use-measure';
 import { geoNaturalEarth1, geoPath, geoGraticule10 } from 'd3';
 import { feature } from 'topojson';
 import world from 'world-atlas/countries-110m.json';
+
+import junoAffiliates from '../content/juno-affiliates';
+import gpsAffiliates from '../content/gps-affiliates';
+
+const tooltipContentRenderer = d => (
+  <Typography variant="subtitle2">
+    <strong>{d.affiliation}</strong>
+    <br />
+    {d.country}
+  </Typography>
+);
+const pointGroups = [
+  {
+    name: 'Juno',
+    fill: '#F9A03F',
+    points: junoAffiliates,
+    tooltipContentRenderer,
+  },
+  {
+    name: 'GPS',
+    fill: '#9AD4D6',
+    points: gpsAffiliates,
+    tooltipContentRenderer,
+  },
+];
 
 const Circle = React.forwardRef((props, ref) => (
   <circle {...props} ref={ref}>
@@ -11,7 +36,7 @@ const Circle = React.forwardRef((props, ref) => (
   </circle>
 ));
 
-const WorldMap = ({ pointGroups }) => {
+const WorldMap = () => {
   // update if container dimensions change
   const nodeRef = useRef();
   const size = useMeasure(nodeRef);

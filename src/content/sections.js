@@ -7,6 +7,7 @@ import ResearchThemes from '../components/ResearchThemes';
 import Publications from '../components/Publications';
 import Software from '../components/Software';
 import Team from '../components/Team';
+import WorldMap from '../components/WorldMap';
 import Content from '../components/Content';
 
 const mdVisitors = raw('../content/visitors.md');
@@ -51,6 +52,12 @@ export default [
         <Content md={mdAlumni} />
       </React.Fragment>
     ),
+  },
+  {
+    label: 'Collaborators',
+    title: 'Collaborators',
+    url: 'collaborators',
+    contentComponent: WorldMap,
   },
   {
     label: 'Publications',
