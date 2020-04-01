@@ -12,6 +12,12 @@ const useStyles = makeStyles({
     backgroundSize: 'cover',
     backgroundColor: '#464646',
   },
+  imageCredit: {
+    position: 'absolute',
+    left: 10,
+    bottom: 10,
+    overflow: 'hidden',
+  },
 });
 
 const SplashImage = () => {
@@ -35,6 +41,13 @@ const SplashImage = () => {
           </Typography>
         </Grid>
       </Grid>
+      <Typography
+        variant="subtitle2"
+        align="left"
+        className={classes.imageCredit}
+      >
+        Image Credit: Sanger Institute, Genome Research Limited
+      </Typography>
     </Box>
   );
 };
