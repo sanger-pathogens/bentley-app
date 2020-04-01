@@ -130,5 +130,11 @@
         "country": "United Kingdom",
         "latitude": 51.594929,
         "longitude": -0.254648
-    }
+    },
+    {
+        "country": "United Kingdom",
+        "affiliation": "Wellcome Sanger Institute",
+        "longitude": 0.1235817,
+        "latitude": 52.2034823
+      }
 ]

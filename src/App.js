@@ -55,6 +55,7 @@ const theme = responsiveFontSizes(
     overrides: {
       MuiTooltip: {
         tooltip: {
+          minWidth: '200px',
           color: '#424242',
           backgroundColor: 'white',
         },

@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import { Tooltip, Typography } from '@material-ui/core';
+import { Box, Grid, Tooltip, Typography } from '@material-ui/core';
+import { CheckCircleRounded, CancelRounded } from '@material-ui/icons';
 import useMeasure from 'use-measure';
 import { geoNaturalEarth1, geoPath, geoGraticule10 } from 'd3';
 import { feature } from 'topojson';
@@ -28,7 +29,7 @@ const affiliates = Object.values(
     }
 
     // from gps
-    if (inJuno) {
+    if (inGPS) {
       acc[d.affiliation].projects.push('gps');
     }
 
@@ -36,12 +37,40 @@ const affiliates = Object.values(
   }, {})
 );
 
+const alignmentStyles = { display: 'inline', verticalAlign: 'bottom' };
+
 const tooltipContentRenderer = d => (
-  <Typography variant="subtitle2" align="center">
-    <strong>{d.affiliation}</strong>
-    <br />
-    {d.country}
-  </Typography>
+  <>
+    <Typography variant="subtitle2" align="center">
+      <strong>{d.affiliation}</strong>
+      <br />
+      {d.country}
+    </Typography>
+    <Box p={2}>
+      <Grid container justify="center" alignItems="center" spacing={2}>
+        <Grid item xs={6}>
+          <Typography align="right">
+            {d.projects.indexOf('gps') >= 0 ? (
+              <CheckCircleRounded style={alignmentStyles} />
+            ) : (
+              <CancelRounded style={alignmentStyles} />
+            )}{' '}
+            <span>GPS</span>
+          </Typography>
+        </Grid>
+        <Grid item xs={6}>
+          <Typography>
+            {d.projects.indexOf('juno') >= 0 ? (
+              <CheckCircleRounded style={alignmentStyles} />
+            ) : (
+              <CancelRounded style={alignmentStyles} />
+            )}{' '}
+            Juno
+          </Typography>
+        </Grid>
+      </Grid>
+    </Box>
+  </>
 );
 
 const Circle = React.forwardRef((props, ref) => (
