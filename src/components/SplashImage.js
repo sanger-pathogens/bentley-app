@@ -3,6 +3,8 @@ import { Grid, Box, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { ArrowDownward } from '@material-ui/icons';
 
+import AnimatedTextPath from './AnimatedTextPath';
+
 const useStyles = makeStyles({
   splash: {
     backgroundImage: 'url(morganlitup.jpg)',
@@ -31,9 +33,9 @@ const SplashImage = () => {
         style={{ height: '100vh' }}
       >
         <Grid item xs={12}>
-          <Typography variant="h1" align="center">
-            Bentley Group
-          </Typography>
+          <Box align="center">
+            <AnimatedTextPath />
+          </Box>
         </Grid>
         <Grid item xs={12}>
           <Typography align="center">
