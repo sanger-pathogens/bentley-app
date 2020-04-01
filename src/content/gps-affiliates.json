@@ -37,7 +37,7 @@
   },
   {
     "country": "United States",
-    "affiliation": "CDC",
+    "affiliation": "Centers for Disease Control and Prevention",
     "longitude": -84.3901849,
     "latitude": 33.7490987
   },
@@ -61,7 +61,7 @@
   },
   {
     "country": "China",
-    "affiliation": "Chinese University of Hong Kong",
+    "affiliation": "The Chinese University of Hong Kong",
     "longitude": 114.1628131,
     "latitude": 22.2793278
   },
@@ -73,7 +73,7 @@
   },
   {
     "country": "Morocco",
-    "affiliation": "Faculty of Medicine and Pharmacy & Ibn Rochd University Hospital Center ",
+    "affiliation": "Ibn Rochd University Hospital Center",
     "longitude": -7.6187768,
     "latitude": 33.5950627
   },
@@ -85,19 +85,13 @@
   },
   {
     "country": "Russia",
-    "affiliation": "G. N. Gabrichevsky Research Institute for Epidemiology and Microbiology ",
-    "longitude": 37.6174943,
-    "latitude": 55.7504461
-  },
-  {
-    "country": "Russia",
     "affiliation": "Gabrichevsky Epidemiology and Microbiology Research Institute",
     "longitude": 37.6174943,
     "latitude": 55.7504461
   },
   {
     "country": "Turkey",
-    "affiliation": "Hacettepe University ",
+    "affiliation": "Hacettepe University",
     "longitude": 32.854067,
     "latitude": 39.9207774
   },
@@ -115,7 +109,7 @@
   },
   {
     "country": "Morocco",
-    "affiliation": "Ibn Rochd university-hospital center",
+    "affiliation": "Ibn Rochd University Hospital Center",
     "longitude": -7.6187768,
     "latitude": 33.5950627
   },
@@ -127,7 +121,13 @@
   },
   {
     "country": "Argentina",
-    "affiliation": "Instituto Nacional de Enfermedades Infecciosas (INEI)-Administración Nacional de Laboratorios e Institutos de Salud (ANLIS) \"Dr. C. Malbrán\"",
+    "affiliation": "Instituto Nacional de Enfermedades Infecciosas",
+    "longitude": -58.4370894,
+    "latitude": -34.6075682
+  },
+  {
+    "country": "Argentina",
+    "affiliation": "Administración Nacional de Laboratorios e Institutos de Salud",
     "longitude": -58.4370894,
     "latitude": -34.6075682
   },
@@ -145,7 +145,7 @@
   },
   {
     "country": "India",
-    "affiliation": "Kempegowda Institute of Medical Sciences Hospital & Research Center",
+    "affiliation": "Kempegowda Institute of Medical Sciences",
     "longitude": 77.5912997,
     "latitude": 12.9791198
   },
@@ -187,7 +187,7 @@
   },
   {
     "country": "Morocco",
-    "affiliation": "Mohammed VI University of Health Sciences (UM6SS)",
+    "affiliation": "Mohammed VI University of Health Sciences",
     "longitude": -7.6187768,
     "latitude": 33.5950627
   },
@@ -277,7 +277,7 @@
   },
   {
     "country": "Colombia",
-    "affiliation": "Universidad De La Sabana",
+    "affiliation": "Universidad de la Sabana",
     "longitude": -74.0760439,
     "latitude": 4.59808
   },

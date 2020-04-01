@@ -1,6 +1,6 @@
 [
     {
-        "affiliation": "Respiratory and Meningeal Pathogens Research Unit, University of the Witwatersrand",
+        "affiliation": "University of the Witwatersrand",
         "country": "South Africa",
         "latitude": -26.13836,
         "longitude": 28.03455
@@ -43,12 +43,12 @@
     },
     {
         "affiliation": "The Chinese University of Hong Kong",
-        "country": "Hong Kong",
+        "country": "China",
         "latitude": 22.41987,
         "longitude": 114.20615
     },
     {
-        "affiliation": "Institute of Epidemiology and Microbiology (Gabrichevsky MRIEM)",
+        "affiliation": "Gabrichevsky Epidemiology and Microbiology Research Institute",
         "country": "Russia",
         "latitude": 55.837486,
         "longitude": 37.489237
@@ -120,7 +120,7 @@
         "longitude": 151.187389
     },
     {
-        "affiliation": "Centers for Disease Control and Prevention ",
+        "affiliation": "Centers for Disease Control and Prevention",
         "country": "United States",
         "latitude": 33.798639,
         "longitude": -84.327058
