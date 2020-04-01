@@ -4,7 +4,6 @@ import {
   Toolbar,
   Grid,
   Button,
-  Typography,
   Link,
   useScrollTrigger,
 } from '@material-ui/core';
