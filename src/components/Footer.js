@@ -6,6 +6,7 @@ import { Box, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 import Funders from './Funders';
+import TwitterFeed from './TwitterFeed';
 
 const useStyles = makeStyles(theme => ({
   footer: {
@@ -17,6 +18,7 @@ const Footer = () => {
   const classes = useStyles();
   return (
     <>
+      <TwitterFeed />
       <Funders />
       <Box
         p={4}
