@@ -127,10 +127,10 @@ const WorldMap = () => {
         viewBox={`0 0 ${width ? width : 0} ${height ? height : 0}`}
       >
         <g>
-          <path d={path(graticule)} strokeWidth="0.5" />
+          <path stroke="#F5F9A7" d={path(graticule)} strokeWidth="0.5" />
         </g>
         <g>
-          <path d={path(outline)} />
+          <path stroke="#F5F9A7" d={path(outline)} />
           {features.map((feature, i) => (
             <path
               stroke="#444"
