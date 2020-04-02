@@ -1,3 +1,6 @@
+# Content
+Most of the data content of the site is stored in the directory, either as markdown or json.
+
 ## GPS affiliates
 The JSON is derived from [partners.txt](https://github.com/jyothishnt/GPS-Project-Website/blob/master/partners.txt):
 
