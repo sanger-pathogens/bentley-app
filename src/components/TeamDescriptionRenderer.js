@@ -6,7 +6,7 @@ const renderers = {
   paragraph: ({ children }) => (
     <Typography variant="body2">{children}</Typography>
   ),
-  link: props => <Link {...props} />,
+  link: props => <Link {...props} target="_blank" rel="noopener noreferrer" />,
 };
 
 const TeamDescriptionRenderer = ({ md }) => (

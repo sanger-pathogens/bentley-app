@@ -8,7 +8,9 @@ import PublicationAuthorsRenderer from './PublicationAuthorsRenderer';
 const Publication = ({ title, url, authors, journalRef }) => (
   <Box pt={2} pb={2}>
     <Typography variant="body1">
-      <Link href={url}>{title}</Link>
+      <Link href={url} target="_blank" rel="noopener noreferrer">
+        {title}
+      </Link>
     </Typography>
     <PublicationAuthorsRenderer md={authors} />
     <TeamDescriptionRenderer md={journalRef} />

@@ -9,7 +9,9 @@ const Software = ({ name, links, description }) => (
     <Typography variant="h6">{name}</Typography>
     {links.map((link, i) => (
       <Typography key={i} variant="body2">
-        <Link href={link.url}>{link.label}</Link>
+        <Link href={link.url} target="_blank" rel="noopener noreferrer">
+          {link.label}
+        </Link>
       </Typography>
     ))}
     <TeamDescriptionRenderer md={description} />

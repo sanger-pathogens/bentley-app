@@ -31,6 +31,8 @@ const Funders = () => {
                 <Link
                   style={{ maxWidth: '250px', display: 'inline-flex' }}
                   href={funder.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {funder.name}
                 </Link>

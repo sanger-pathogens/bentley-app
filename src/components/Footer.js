@@ -25,7 +25,11 @@ const Footer = () => {
       <Box p={3} bgcolor="primary.main">
         <Grid container alignItems="center" justify="space-between" spacing={2}>
           <Grid item xs={12} md={4}>
-            <Link href="https://www.sanger.ac.uk/">
+            <Link
+              href="https://www.sanger.ac.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="/SangerLogo.9423243b.png"
                 width="130"
@@ -40,7 +44,12 @@ const Footer = () => {
             <Typography variant="body1">
               {contacts.map((contact, i) => (
                 <React.Fragment key={i}>
-                  <Link className={classes.footerLink} href={contact.url}>
+                  <Link
+                    className={classes.footerLink}
+                    href={contact.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {contact.label}
                   </Link>
                   {i < contacts.length - 1 ? ' | ' : null}
@@ -57,6 +66,8 @@ const Footer = () => {
                 <Link
                   className={classes.footerLink}
                   href={`https://github.com/sanger-pathogens/bentley-app/commit/${process.env.REACT_APP_GIT_REVISION}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {process.env.REACT_APP_GIT_REVISION}
                 </Link>
@@ -70,6 +81,8 @@ const Footer = () => {
                 <Link
                   className={classes.footerLink}
                   href={`https://github.com/sanger-pathogens/bentley-app/commit/${process.env.REACT_APP_GIT_REVISION}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {process.env.REACT_APP_GIT_REVISION}
                 </Link>
