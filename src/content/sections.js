@@ -18,25 +18,25 @@ export default [
     label: 'About Us',
     title: 'About us',
     url: 'about',
-    contentComponent: AboutUs,
+    ContentComponent: AboutUs,
   },
   {
     label: 'Research',
     title: 'Research themes',
     url: 'research',
-    contentComponent: ResearchThemes,
+    ContentComponent: ResearchThemes,
   },
   {
     label: 'Software',
     title: 'Our software',
     url: 'software',
-    contentComponent: Software,
+    ContentComponent: Software,
   },
   {
     label: 'Team',
     title: 'Meet the team',
     url: 'team',
-    contentComponent: () => (
+    ContentComponent: () => (
       <React.Fragment>
         <Typography variant="h4" style={{ paddingTop: '1rem' }}>
           Current members
@@ -57,12 +57,12 @@ export default [
     label: 'Collaborators',
     title: 'Collaborators',
     url: 'collaborators',
-    contentComponent: Collaborators,
+    ContentComponent: Collaborators,
   },
   {
     label: 'Publications',
     title: 'Publications',
     url: 'publications',
-    contentComponent: Publications,
+    ContentComponent: Publications,
   },
 ];
