@@ -6,6 +6,7 @@ import { geoNaturalEarth1, geoPath, geoGraticule10 } from 'd3';
 import { feature } from 'topojson';
 import world from 'world-atlas/countries-110m.json';
 
+import { highlight } from '../theme';
 import junoAffiliates from '../content/juno-affiliates';
 import gpsAffiliates from '../content/gps-affiliates';
 
@@ -127,10 +128,10 @@ const WorldMap = () => {
         viewBox={`0 0 ${width ? width : 0} ${height ? height : 0}`}
       >
         <g>
-          <path stroke="#F5F9A7" d={path(graticule)} strokeWidth="0.5" />
+          <path stroke={highlight} d={path(graticule)} strokeWidth="0.5" />
         </g>
         <g>
-          <path stroke="#F5F9A7" d={path(outline)} />
+          <path stroke={highlight} d={path(outline)} />
           {features.map((feature, i) => (
             <path
               stroke="#444"

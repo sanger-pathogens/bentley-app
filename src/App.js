@@ -9,68 +9,15 @@ import {
 
 import 'typeface-inter';
 
+import theme from './theme';
 import PageHome from './components/PageHome';
 
-const theme = responsiveFontSizes(
-  createMuiTheme({
-    typography: {
-      button: {
-        textTransform: 'none',
-      },
-      fontFamily: [
-        'inter',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        'sans-serif',
-        '"Apple Color Emoji"',
-        '"Segoe UI Emoji"',
-        '"Segoe UI Symbol"',
-      ].join(','),
-    },
-    palette: {
-      type: 'dark',
-      // primary: { main: '#7293BC' }, // Christine's blue
-      primary: { main: '#00bcd4' },
-      secondary: { main: '#651fff' },
-    },
-    status: {
-      danger: 'orange',
-    },
-    props: {
-      MuiButtonBase: {
-        disableRipple: true,
-      },
-      MuiPaper: {
-        elevation: 0,
-        square: true,
-      },
-      MuiLink: {
-        underline: 'none',
-      },
-    },
-    overrides: {
-      MuiTooltip: {
-        tooltip: {
-          minWidth: '200px',
-          color: '#424242',
-          backgroundColor: 'white',
-        },
-        arrow: {
-          color: 'white',
-        },
-      },
-    },
-  })
-);
+const generatedTheme = responsiveFontSizes(createMuiTheme(theme));
 
 const App = () => (
   <React.Fragment>
     <CssBaseline />
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={generatedTheme}>
       <Router>
         <Switch>
           <Route exact path="/" component={PageHome} />
