@@ -54,7 +54,7 @@ const CurrentTeam = () => (
 const HonoraryTeam = () => (
   <Box pt={2} pb={2}>
     {honoraryTeam.map(person => (
-      <PersonTextAtSide {...person} />
+      <PersonTextAtSide key={person.name} {...person} />
     ))}
   </Box>
 );
@@ -62,7 +62,7 @@ const HonoraryTeam = () => (
 const SpecialMention = () => (
   <Box pt={2} pb={2}>
     {specialMention.map(person => (
-      <PersonTextAtSide {...person} />
+      <PersonTextAtSide key={person.name} {...person} />
     ))}
   </Box>
 );
