@@ -11,25 +11,40 @@ import {
   useScrollTrigger,
   Hidden,
 } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import { Menu as MenuIcon } from '@material-ui/icons';
 
-const NavigationFlat = ({ navigation }) => (
-  <React.Fragment>
-    {navigation.map((item, i) => (
-      <Button key={i} color="inherit" href={item.url} component={Link}>
-        {item.label}
-      </Button>
-    ))}
-  </React.Fragment>
-);
+const useStyles = makeStyles(theme => ({
+  headerLink: {
+    color: 'white',
+  },
+}));
+
+const NavigationFlat = ({ navigation }) => {
+  const classes = useStyles();
+  return (
+    <React.Fragment>
+      {navigation.map((item, i) => (
+        <Button
+          key={i}
+          className={classes.headerLink}
+          href={item.url}
+          component={Link}
+        >
+          {item.label}
+        </Button>
+      ))}
+    </React.Fragment>
+  );
+};
 
 const NavigationMenu = ({ navigation }) => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const classes = useStyles();
 
+  const [anchorEl, setAnchorEl] = React.useState(null);
   const handleClick = event => {
     setAnchorEl(event.currentTarget);
   };
-
   const handleClose = () => {
     setAnchorEl(null);
   };
@@ -61,6 +76,7 @@ const NavigationMenu = ({ navigation }) => {
             component={Link}
             href={item.url}
             onClick={handleClose}
+            className={classes.headerLink}
           >
             {item.label}
           </MenuItem>
@@ -76,6 +92,7 @@ const Header = ({ navigation }) => {
     threshold: 0,
     target: window,
   });
+  const classes = useStyles();
   return (
     <AppBar
       position="fixed"
@@ -87,7 +104,7 @@ const Header = ({ navigation }) => {
         <Grid container alignItems="center" justify="space-between" spacing={4}>
           <Grid item>
             {trigger ? (
-              <Button color="inherit" href="/" component={Link}>
+              <Button className={classes.headerLink} href="/" component={Link}>
                 Bentley Group
               </Button>
             ) : null}
