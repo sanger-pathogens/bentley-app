@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AboutUs from '../components/AboutUs';
 import ResearchThemes from '../components/ResearchThemes';
 import Publications from '../components/Publications';
