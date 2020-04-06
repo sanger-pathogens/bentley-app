@@ -18,13 +18,26 @@ const Publication = ({ title, url, authors, journalRef }) => (
 );
 
 const Publications = () => (
-  <Grid container>
-    {publications.map((publication, i) => (
-      <Grid key={i} item xs={12}>
-        <Publication {...publication} />
-      </Grid>
-    ))}
-  </Grid>
+  <>
+    <Grid container>
+      {publications.map((publication, i) => (
+        <Grid key={i} item xs={12}>
+          <Publication {...publication} />
+        </Grid>
+      ))}
+    </Grid>
+    <Typography align="center">
+      See more on{' '}
+      <Link
+        href="https://scholar.google.com/citations?user=rywPBOQAAAAJ&hl=en"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Google Scholar
+      </Link>
+      .
+    </Typography>
+  </>
 );
 
 export default Publications;
