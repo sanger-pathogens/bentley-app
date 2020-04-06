@@ -52,6 +52,7 @@ const NavigationMenu = ({ navigation }) => {
         keepMounted
         open={Boolean(anchorEl)}
         onClose={handleClose}
+        elevation={0}
       >
         {navigation.map(item => (
           <MenuItem
