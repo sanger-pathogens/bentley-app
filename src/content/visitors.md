@@ -1,11 +1,1 @@
-**2020**
-
-- Nida Javaid, visiting PhD student from Molecular Epidemiology and Microbiology Lab, Department of Biology, Lahore University of Management Sciences, Pakistan.
-
-- Chiara Crestani, visiting PhD student from the Institute of Biodiversity, Animal Health & Comparative Medicine, University of Glasgow, United Kingdom.
-
-**2019**
-
-- Kay To, visiting PhD student from the Department of Medicine, Imperial College London, United Kingdom
-
-- Anna Kaarina Pöntinen, visiting Postdoctoral Fellow from the Oslo Centre for Biostatistics and Epidemiology, University of Oslo, Norway
+Aku Kalizang'Oma, Alberto Pessia, Alice Yaxley, Anna Kaarina Pöntinen, Anne Blascke, Arox Kamngona, Bart Ferwerda, Ben Metcalf, Benard Kulohoma, Chiara Crestani, Claire Chewapreecha, Conor Proud, Dan Neill, David Kateete, Elina Numminen, Eric Miller, Eric Sampane-Donkor, Felix Dube, Fredrick Mobegi, Fu Xiang Quah, Geetha Nagaraj, Jen Cornick, Kay To, Leire Aguinagalde, Leon Bentley, Madikay Senghore, Maiju Personen, Melaku Tilahun, Nida Javaid, Paul Turner, Pekka Marttinen, Philip Kremer, Rama Kandasamy, Shanil Govindpershad, Sophie Belman, Steph McGimpsey, Vidya Niranjan

@@ -4,6 +4,7 @@ import { Grid, Box, Typography } from '@material-ui/core';
 
 import currentTeam from '../content/team';
 import honoraryTeam from '../content/honorary-team';
+import specialMention from '../content/special-mention';
 import Markdown from './Markdown';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
@@ -21,6 +22,23 @@ const Person = ({ name, role, imageUrl, description }) => (
   </Box>
 );
 
+const PersonTextAtSide = ({ name, role, imageUrl, description }) => (
+  <Box>
+    <Grid container spacing={2}>
+      <Grid item xs={12} sm={6} md={4} lg={3}>
+        <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
+      </Grid>
+      <Grid item xs={12} sm={6} md={8} lg={9}>
+        <Typography variant="h6">{name}</Typography>
+        <Typography variant="subtitle1">
+          <i>{role}</i>
+        </Typography>
+        <TeamDescriptionRenderer md={description} />
+      </Grid>
+    </Grid>
+  </Box>
+);
+
 const CurrentTeam = () => (
   <Box pt={2} pb={2}>
     <Grid container spacing={2}>
@@ -35,13 +53,17 @@ const CurrentTeam = () => (
 
 const HonoraryTeam = () => (
   <Box pt={2} pb={2}>
-    <Grid container spacing={2}>
-      {honoraryTeam.map(person => (
-        <Grid key={person.name} item xs={12} sm={6} md={4} lg={3}>
-          <Person {...person} />
-        </Grid>
-      ))}
-    </Grid>
+    {honoraryTeam.map(person => (
+      <PersonTextAtSide {...person} />
+    ))}
+  </Box>
+);
+
+const SpecialMention = () => (
+  <Box pt={2} pb={2}>
+    {specialMention.map(person => (
+      <PersonTextAtSide {...person} />
+    ))}
   </Box>
 );
 
@@ -56,8 +78,11 @@ const Team = () => (
     </Typography>
     <HonoraryTeam />
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
-      Visitors
+      Associates and visitors
     </Typography>
+    <Typography variant="h6">Special mention</Typography>
+    <SpecialMention />
+    <Typography variant="h6">All</Typography>
     <Markdown md={mdVisitors} />
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
       Alumni
