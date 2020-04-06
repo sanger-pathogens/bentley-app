@@ -39,9 +39,9 @@ export default [
     ContentComponent: Collaborators,
   },
   {
-    label: 'Publications',
-    title: 'Publications',
-    url: 'publications',
+    label: 'Papers',
+    title: 'Our papers',
+    url: 'papers',
     ContentComponent: Publications,
   },
 ];
