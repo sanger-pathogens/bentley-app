@@ -17,10 +17,14 @@ const PageHome = () => (
   <Page
     header={
       <Header
-        navigation={sections.map(({ label, url }) => ({
-          label,
-          url: `#${url}`,
-        }))}
+        navigation={[
+          ...sections.map(({ label, url }) => ({
+            label,
+            url: `#${url}`,
+          })),
+          { label: 'News', url: '#twitterFeed' },
+          { label: 'Funders', url: '#funders' },
+        ]}
       />
     }
     footer={<Footer />}
