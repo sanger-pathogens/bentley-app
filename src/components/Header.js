@@ -54,7 +54,13 @@ const NavigationMenu = ({ navigation }) => {
         onClose={handleClose}
       >
         {navigation.map(item => (
-          <MenuItem key={item.url} component={Link} href={item.url}>
+          <MenuItem
+            key={item.url}
+            dense
+            component={Link}
+            href={item.url}
+            onClick={handleClose}
+          >
             {item.label}
           </MenuItem>
         ))}
