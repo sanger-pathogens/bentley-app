@@ -2,7 +2,8 @@ import React from 'react';
 import raw from 'raw.macro';
 import { Grid, Box, Typography } from '@material-ui/core';
 
-import team from '../content/team';
+import currentTeam from '../content/team';
+import honoraryTeam from '../content/honorary-team';
 import Markdown from './Markdown';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
@@ -23,7 +24,19 @@ const Person = ({ name, role, imageUrl, description }) => (
 const CurrentTeam = () => (
   <Box pt={2} pb={2}>
     <Grid container spacing={2}>
-      {team.map(person => (
+      {currentTeam.map(person => (
+        <Grid key={person.name} item xs={12} sm={6} md={4} lg={3}>
+          <Person {...person} />
+        </Grid>
+      ))}
+    </Grid>
+  </Box>
+);
+
+const HonoraryTeam = () => (
+  <Box pt={2} pb={2}>
+    <Grid container spacing={2}>
+      {honoraryTeam.map(person => (
         <Grid key={person.name} item xs={12} sm={6} md={4} lg={3}>
           <Person {...person} />
         </Grid>
@@ -38,6 +51,10 @@ const Team = () => (
       Current members
     </Typography>
     <CurrentTeam />
+    <Typography variant="h4" style={{ paddingTop: '1rem' }}>
+      Honorary members
+    </Typography>
+    <HonoraryTeam />
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
       Visitors
     </Typography>
