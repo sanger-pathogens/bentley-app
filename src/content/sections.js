@@ -32,7 +32,7 @@ export default [
   },
   {
     label: 'Collaborators',
-    title: 'Collaborators',
+    title: 'Global collaboration',
     url: 'collaborators',
     ContentComponent: Collaborators,
   },
