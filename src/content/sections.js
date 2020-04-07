@@ -38,7 +38,7 @@ export default [
   },
   {
     label: 'Papers',
-    title: 'Our papers',
+    title: 'Selected papers',
     url: 'papers',
     ContentComponent: Publications,
   },
