@@ -8,6 +8,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "csv2json": "^2.0.2",
     "d3": "^5.15.0",
     "raw.macro": "^0.3.0",
     "react": "^16.13.0",
@@ -24,10 +25,11 @@
     "world-atlas": "^2.0.2"
   },
   "scripts": {
-    "start": "REACT_APP_GIT_REVISION=\"$(git rev-parse --short HEAD)\" react-scripts start",
-    "build": "REACT_APP_GIT_REVISION=\"$(git rev-parse --short HEAD)\" react-scripts build",
+    "start": "yarn run collaborators && REACT_APP_GIT_REVISION=\"$(git rev-parse --short HEAD)\" react-scripts start",
+    "build": "yarn run collaborators && REACT_APP_GIT_REVISION=\"$(git rev-parse --short HEAD)\" react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "collaborators": "cat src/content/collaborators.csv | csv2json > src/content/collaborators.json"
   },
   "eslintConfig": {
     "extends": "react-app"
