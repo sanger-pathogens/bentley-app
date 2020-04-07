@@ -1,18 +1,28 @@
 import React, { useRef } from 'react';
 import { Tooltip, Typography } from '@material-ui/core';
 import useMeasure from 'use-measure';
-import { geoNaturalEarth1, geoPath, geoGraticule10 } from 'd3';
+import { geoNaturalEarth1, geoPath, geoGraticule10, min } from 'd3';
 import { feature } from 'topojson';
 import world from 'world-atlas/countries-110m.json';
 
-import { highlight } from '../theme';
+import { background, highlight } from '../theme';
 import affiliates from '../content/collaborators';
 
 const tooltipContentRenderer = d => (
   <Typography variant="subtitle2" align="center">
-    <strong>{d.affiliation}</strong>
-    <br />
-    {d.country}
+    {d.items.map((item, i) => (
+      <React.Fragment key={i}>
+        <strong>{item.affiliation}</strong>
+        <br />
+        {item.country}
+        {i < d.items.length - 1 ? (
+          <React.Fragment>
+            <br />
+            <hr style={{ borderTop: background }} />
+          </React.Fragment>
+        ) : null}
+      </React.Fragment>
+    ))}
   </Typography>
 );
 
@@ -45,6 +55,39 @@ const WorldMap = () => {
     return { ...point, cx, cy };
   });
 
+  const threshold = 8;
+  const euclidean = (p1, p2) =>
+    Math.sqrt((p1.cx - p2.cx) ** 2 + (p1.cy - p2.cy) ** 2);
+
+  const p1 = { cx: 1, cy: 1 };
+  const p2 = { cx: 4, cy: 5 };
+  console.log(euclidean(p1, p2));
+  const mergedPointsWithScreenCoordinates = pointsWithScreenCoordinates
+    .reduce((acc, point) => {
+      // acc is array of arrays of points
+      if (acc.length > 0) {
+        const minDistancesPerMergedPointArray = acc.map(pointArray =>
+          min(pointArray.map(other => euclidean(point, other)))
+        );
+        const minDistance = min(minDistancesPerMergedPointArray);
+
+        if (minDistance < threshold) {
+          // merge points if they are close on screen
+          const minDistanceIndex = minDistancesPerMergedPointArray.indexOf(
+            minDistance
+          );
+          acc[minDistanceIndex].push(point);
+        } else {
+          acc.push([point]);
+        }
+      } else {
+        acc.push([point]);
+      }
+
+      return acc;
+    }, [])
+    .map(d => ({ cx: d[0].cx, cy: d[0].cy, items: d }));
+
   return (
     <div ref={nodeRef} style={{ width: '100%', height: 600 }}>
       <svg
@@ -70,8 +113,15 @@ const WorldMap = () => {
             />
           ))}
         </g>
-        <g stroke="black" fill="white">
+        {/* <g stroke="black" fill="white">
           {pointsWithScreenCoordinates.map((point, j) => (
+            <Tooltip key={j} title={tooltipContentRenderer(point)} arrow>
+            <circle key={j} {...{ cx: point.cx, cy: point.cy, r: 4 }} />
+            </Tooltip>
+          ))}
+        </g> */}
+        <g stroke="black" fill="white">
+          {mergedPointsWithScreenCoordinates.map((point, j) => (
             <Tooltip key={j} title={tooltipContentRenderer(point)} arrow>
               <Circle key={j} {...{ cx: point.cx, cy: point.cy, r: 4 }} />
             </Tooltip>
