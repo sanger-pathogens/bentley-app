@@ -7,7 +7,7 @@
                 "url": "https://github.com/gtonkinhill/fastbaps"
             }
         ],
-        "description": "Fastbaps is a fast solution to the genetic clustering problem. It rapidly identifies an approximate fit to a Dirichlet process mixture model (DPM) for clustering multilocus genotype data. Our efficient model-based clustering approach is able to cluster datasets 10–100 times larger including over 110,000 sequences of HIV-1 pol genes. [RheirBAPS](https://rdrr.io/github/gtonkinhill/rhierbaps/man/hierBAPS.html), is an R implementation of  fasBAPS, that automates the entire pipeline."
+        "description": "Fastbaps is a fast solution to the genetic clustering problem. It rapidly identifies an approximate fit to a Dirichlet process mixture model (DPM) for clustering multilocus genotype data. Our efficient model-based clustering approach is able to cluster datasets 10–100 times larger including over 110,000 sequences of HIV-1 pol genes."
     },
     {
         "name": "Gubbins",
