@@ -59,9 +59,6 @@ const WorldMap = () => {
   const euclidean = (p1, p2) =>
     Math.sqrt((p1.cx - p2.cx) ** 2 + (p1.cy - p2.cy) ** 2);
 
-  const p1 = { cx: 1, cy: 1 };
-  const p2 = { cx: 4, cy: 5 };
-  console.log(euclidean(p1, p2));
   const mergedPointsWithScreenCoordinates = pointsWithScreenCoordinates
     .reduce((acc, point) => {
       // acc is array of arrays of points
