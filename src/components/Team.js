@@ -10,9 +10,18 @@ import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 const mdVisitors = raw('../content/visitors.md');
 const mdAlumni = raw('../content/alumni.md');
 
-const Person = ({ name, role, imageUrl, description }) => (
+const Person = ({ name, role, imageUrl, flagUrl, description }) => (
   <Box>
     <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
+    {flagUrl ? (
+      <img
+        src={flagUrl}
+        title="Image credit: https://flagpedia.net"
+        alt="Flag of home country (from https://flagpedia.net)"
+        height="25px"
+      />
+    ) : null}
+
     <Typography variant="h6">{name}</Typography>
     <Typography variant="subtitle1">
       <i>{role}</i>
