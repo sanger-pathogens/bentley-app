@@ -30,23 +30,6 @@ const Person = ({ name, role, imageUrl, flagUrl, description }) => (
   </Box>
 );
 
-// const PersonTextAtSide = ({ name, role, imageUrl, description }) => (
-//   <Box>
-//     <Grid container spacing={2}>
-//       <Grid item xs={12} sm={6} md={4} lg={3}>
-//         <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
-//       </Grid>
-//       <Grid item xs={12} sm={6} md={8} lg={9}>
-//         <Typography variant="h6">{name}</Typography>
-//         <Typography variant="subtitle1">
-//           <i>{role}</i>
-//         </Typography>
-//         <TeamDescriptionRenderer md={description} />
-//       </Grid>
-//     </Grid>
-//   </Box>
-// );
-
 const CurrentTeam = () => (
   <Box pt={2} pb={2}>
     <Grid container spacing={2}>
