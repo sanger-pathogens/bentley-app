@@ -15,7 +15,7 @@ const TwitterFeed = () => (
             <Box p={2}>
               <TwitterTimelineEmbed
                 sourceType="profile"
-                screenName="pneumowatch"
+                screenName="JunoSeq"
                 options={{ height: 400 }}
               />
             </Box>
