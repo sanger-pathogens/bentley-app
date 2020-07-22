@@ -11,7 +11,16 @@ const TwitterFeed = () => (
           In the news
         </Typography>
         <Grid container justify="center">
-          <Grid item xs={12} sm={8} md={6} lg={6}>
+          <Grid item xs={12} sm={8} md={6} lg={4}>
+            <Box p={2}>
+              <TwitterTimelineEmbed
+                sourceType="profile"
+                screenName="pneumowatch"
+                options={{ height: 400 }}
+              />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={8} md={6} lg={4}>
             <Box p={2}>
               <TwitterTimelineEmbed
                 sourceType="profile"
