@@ -3,14 +3,12 @@
         "name": "Professor Jukka Corander",
         "role": "Associate Faculty",
         "imageUrl": "/people/jukka_square.png",
-        "flagUrl": "/flags/fi.svg",
         "description": "Jukka has an [Associate Faculty](https://www.sanger.ac.uk/people/directory/corander-jukka) position at the Sanger Institute and has been a long term collaborator with the Bentley team making a special impact on development of extremely efficient analytical software. And snowboarding."
     },
     {
         "name": "Dr. Felix Dube",
         "role": "Visiting Researcher",
         "imageUrl": "/people/Felix_BW_square.png",
-        "flagUrl": "/flags/za.svg",
         "description": "My interest is in analysing microbial populations (with a focus on *Streptococcus pneumoniae*) to understand the epidemiology and spread of antimicrobial resistance."
     }
 ]

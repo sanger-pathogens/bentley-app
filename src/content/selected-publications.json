@@ -1,5 +1,17 @@
 [
     {
+        "title": "Bacterial genome-wide association study of hyper-virulent pneumococcal serotype 1 identifies genetic variation associated with neurotropism.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33033372/",
+        "authors": "Chaguza C, Yang M, Cornick JE, du Plessis M, Gladstone RA *et al.*",
+        "journalRef": "Commun Biol. 2020 Oct 8;3(1):559."
+    },
+    {
+        "title": "Within-host microevolution of *Streptococcus pneumoniae* is rapid and adaptive during natural colonisation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32651390/",
+        "authors": "Chaguza C, Senghore M, Bojang E, Gladstone RA, Lo SW *et al.*",
+        "journalRef": "Nat Commun. 2020 Jul 10;11(1):3442."
+    },
+    {
         "title": "Pneumococcal lineages associated with serotype replacement and antibiotic resistance in childhood invasive pneumococcal disease in the post-PCV13 era: an international whole-genome sequencing study.",
         "url": "https://www.ncbi.nlm.nih.gov/pubmed/31196809",
         "authors": "Lo SW, Gladstone RA, van Tonder AJ, Lees JA, du Plessis M, *et al.*",
