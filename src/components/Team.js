@@ -10,7 +10,7 @@ import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 const mdVisitors = raw('../content/visitors.md');
 const mdAlumni = raw('../content/alumni.md');
 
-const Person = ({ name, role, imageUrl, flagUrl, description }) => (
+const Person = ({ name, role, imageUrl, description }) => (
   <Box>
     <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
     <Typography variant="h6">{name}</Typography>
