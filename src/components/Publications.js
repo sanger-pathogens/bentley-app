@@ -4,14 +4,13 @@ import { Grid, Box, Typography, Link } from '@material-ui/core';
 import publications from '../content/selected-publications';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 import PublicationAuthorsRenderer from './PublicationAuthorsRenderer';
+import PublicationTitleRenderer from './PublicationTitleRenderer'
 
 const Publication = ({ title, url, authors, journalRef }) => (
   <Box pt={2} pb={2}>
-    <Typography variant="body1">
-      <Link href={url} target="_blank" rel="noopener noreferrer">
-        {title}
-      </Link>
-    </Typography>
+    <Link href={url} target="_blank" rel="noopener noreferrer">
+      <PublicationTitleRenderer md={title} />
+    </Link>
     <PublicationAuthorsRenderer md={authors} />
     <TeamDescriptionRenderer md={journalRef} />
   </Box>
