@@ -6,6 +6,12 @@
         "description": "I’m interested in exploring how we can use genomics in efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low-income settings."
     },
     {
+        "name": "Alex Tokolyi",
+        "role": "PhD Student",
+        "imageUrl": "/people/BW_AlexTokolyI.jpg",
+        "description": "I'm interested in untangling the role of human and microbe-derived diversity in the heterogeneity of the human immune response."
+    },
+    {
         "name": "Dr. Chrispin Chaguza",
         "role": "Post Doctoral Fellow",
         "imageUrl": "/people/Chrispin_2_BW.jpg",
@@ -36,10 +42,28 @@
         "description": "I study within-host evolution and transmission in *Streptococcus pneumoniae* as well as  developing statistical and bioinformatics methods for microbial genomics."
     },
     {
+        "name": "Kate Mellor",
+        "role": "Bioinformatician",
+        "imageUrl": "/people/BW_Kate.png",
+        "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
+    },
+    {
+        "name": "Dr. Narender Kumar",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/BW_Narender_square.png",
+        "description": "I am responsible for the planning and facilitation of the WGS capacity and infrastructure setup for the GPS project."
+    },
+    {
         "name": "Neil MacAlasdair",
         "role": "PhD Student",
         "imageUrl": "/people/Neil_1_BW.jpg",
         "description": "I study recombination and its effects on evolution in *Neisseria meningitidis* and how this affects various populations."
+    },
+    {
+        "name": "Sophie Belman",
+        "role": "PhD Student",
+        "imageUrl": "/people/Sophie_1_BW.jpg",
+        "description": "I study global spatiotemporal dynamics of *Streptococcus pneumoniae* to understand the impact migration has on disease prevalence and prevention."
     },
     {
         "name": "Dr. Stephanie Wai-U Lo",
@@ -52,5 +76,11 @@
         "role": "Senior Computational Biologist",
         "imageUrl": "/people/Uzma_2_BW.jpg",
         "description": "I study antibiotic resistance mechanisms, recombination, mobile genetic elements and transmission in *Streptococcus agalactiae* to comprehend bacterial adaptation and evolution."
+    },
+    {
+        "name": "Victoria Carr",
+        "role": "Scientific Programmer",
+        "imageUrl": "/people/BW_Vicky_square.png",
+        "description": "I am in the Pathogen Informatics Group working with the team to develop bioinformatics software, particularly for the GPS Project."
     }
 ]
