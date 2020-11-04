@@ -3,8 +3,8 @@ FROM node:latest as builder
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY . /app
-RUN npm install --silent
-RUN npm run build
+RUN yarn install --silent
+RUN yarn build
 
 # production environment
 FROM nginx:alpine
