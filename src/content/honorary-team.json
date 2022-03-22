@@ -10,5 +10,17 @@
         "role": "Visiting Researcher",
         "imageUrl": "/people/Felix_BW_square.png",
         "description": "My interest is in analysing microbial populations (with a focus on *Streptococcus pneumoniae*) to understand the epidemiology and spread of antimicrobial resistance."
+    },
+    {
+        "name": "Dr. Neil MacAlasdair",
+        "role": "Postdoctoral fellow",
+        "imageUrl": "/people/Neil_1_BW.jpg",
+        "description": "I study recombination and its effects on evolution in *Neisseria meningitidis* and how this affects various populations."
+    },
+    {
+        "name": "Dr. Gerry Tonkin-Hill",
+        "role": "Postdoctoral fellow",
+        "imageUrl": "/people/Gerry_1_BW.jpg",
+        "description": "I study within-host evolution and transmission in *Streptococcus pneumoniae* as well as  developing statistical and bioinformatics methods for microbial genomics."
     }
 ]

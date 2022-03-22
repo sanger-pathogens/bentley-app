@@ -1,6 +1,6 @@
 import React from 'react';
 import raw from 'raw.macro';
-import { Grid, Box, Typography } from '@material-ui/core';
+import { Grid, Box, Typography, Link } from '@material-ui/core';
 
 import currentTeam from '../content/team';
 import honoraryTeam from '../content/honorary-team';
@@ -10,10 +10,10 @@ import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 const mdVisitors = raw('../content/visitors.md');
 const mdAlumni = raw('../content/alumni.md');
 
-const Person = ({ name, role, imageUrl, description }) => (
+const Person = ({ name, role, imageUrl, sangerProfile, description }) => (
   <Box>
     <img src={imageUrl} alt={`${name} - ${role}`} width="100%" />
-    <Typography variant="h6">{name}</Typography>
+    <Link variant="h6" href={sangerProfile}>{name}</Link>
     <Typography variant="subtitle1">
       <i>{role}</i>
     </Typography>
