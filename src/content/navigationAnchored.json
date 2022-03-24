@@ -4,5 +4,6 @@
     { "label": "Software", "url": "software"},
     { "label": "Team", "url": "team"},
     { "label": "Publications", "url": "publications"},
-    { "label": "Gallery", "url": "gallery"}
+    { "label": "Gallery", "url": "gallery"},
+    { "label": "Join Us", "url": "joinus"}
 ]

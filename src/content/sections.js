@@ -5,6 +5,7 @@ import Software from '../components/Software';
 import Team from '../components/Team';
 import Collaborators from '../components/Collaborators';
 import Gallery from '../components/Gallery';
+import JoinUs from '../components/JoinUs';
 
 export default [
   {
@@ -48,5 +49,11 @@ export default [
     title: 'Gallery',
     url: 'gallery',
     ContentComponent: Gallery,
+  },
+  {
+    label: 'Join Us',
+    title: 'Join Us',
+    url: 'joinus',
+    ContentComponent: JoinUs,
   },
 ];
