@@ -3,5 +3,6 @@
     { "label": "Research", "url": "research"},
     { "label": "Software", "url": "software"},
     { "label": "Team", "url": "team"},
-    { "label": "Publications", "url": "publications"}
+    { "label": "Publications", "url": "publications"},
+    { "label": "Gallery", "url": "gallery"}
 ]

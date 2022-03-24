@@ -4,6 +4,7 @@ import Publications from '../components/Publications';
 import Software from '../components/Software';
 import Team from '../components/Team';
 import Collaborators from '../components/Collaborators';
+import Gallery from '../components/Gallery';
 
 export default [
   {
@@ -41,5 +42,11 @@ export default [
     title: 'Selected papers',
     url: 'papers',
     ContentComponent: Publications,
+  },
+  {
+    label: 'Gallery',
+    title: 'Gallery',
+    url: 'gallery',
+    ContentComponent: Gallery,
   },
 ];
