@@ -4,6 +4,7 @@ import Publications from '../components/Publications';
 import Software from '../components/Software';
 import Team from '../components/Team';
 import Collaborators from '../components/Collaborators';
+import Outreach from '../components/Outreach';
 import Gallery from '../components/Gallery';
 import JoinUs from '../components/JoinUs';
 
@@ -43,6 +44,12 @@ export default [
     title: 'Selected papers',
     url: 'papers',
     ContentComponent: Publications,
+  },
+  {
+    label: 'Outreach',
+    title: 'Outreach',
+    url: 'outreach',
+    ContentComponent: Outreach,
   },
   {
     label: 'Gallery',
