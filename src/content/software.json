@@ -7,7 +7,8 @@
                 "url": "https://github.com/gtonkinhill/fastbaps"
             }
         ],
-        "description": "Fastbaps is a fast solution to the genetic clustering problem. It rapidly identifies an approximate fit to a Dirichlet process mixture model (DPM) for clustering multilocus genotype data. Our efficient model-based clustering approach is able to cluster datasets 10–100 times larger including over 110,000 sequences of HIV-1 pol genes."
+        "description": "Fastbaps is a fast solution to the genetic clustering problem. It rapidly identifies an approximate fit to a Dirichlet process mixture model (DPM) for clustering multilocus genotype data. Our efficient model-based clustering approach is able to cluster datasets 10–100 times larger including over 110,000 sequences of HIV-1 pol genes.",
+        "image": "/software/FastBAPS.png"
     },
     {
         "name": "Gubbins",
@@ -17,7 +18,8 @@
                 "url": "http://sanger-pathogens.github.io/gubbins/"
             }
         ],
-        "description": "Gubbins (Genealogies Unbiased By recomBinations In Nucleotide Sequences) identifies recombination regions in the bacterial genome using an algorithm that iteratively identifies loci containing elevated densities of base substitutions while concurrently constructing a phylogeny based on the putative point mutations outside of these regions."
+        "description": "Gubbins (Genealogies Unbiased By recomBinations In Nucleotide Sequences) identifies recombination regions in the bacterial genome using an algorithm that iteratively identifies loci containing elevated densities of base substitutions while concurrently constructing a phylogeny based on the putative point mutations outside of these regions.",
+        "image": "/software/Gubbins.jpg"
     },
     {
         "name": "Pairsnp",
@@ -27,7 +29,8 @@
                 "url": "https://github.com/gtonkinhill/pairsnp"
             }
         ],
-        "description": "Pairsnp is used to quickly obtain pairwise SNP distance matrices from multiple sequence alignments. For larger alignments, pairsnp is an order of magnitude faster than approaches based on pairwise comparison of every site."
+        "description": "Pairsnp is used to quickly obtain pairwise SNP distance matrices from multiple sequence alignments. For larger alignments, pairsnp is an order of magnitude faster than approaches based on pairwise comparison of every site.",
+        "image": "/software/pairsnp.png"
     },
     {
         "name": "Panaroo",
@@ -37,7 +40,8 @@
                 "url": "https://github.com/gtonkinhill/panaroo"
             }
         ],
-        "description": "Panaroo is a graph based pangenome clustering tool that is able to account for many of the sources of error introduced during the annotation of prokaryotic genome assemblies."
+        "description": "Panaroo is a graph based pangenome clustering tool that is able to account for many of the sources of error introduced during the annotation of prokaryotic genome assemblies.",
+        "image": "/software/panaroo.png"
     },
     {
         "name": "PopPUNK",
@@ -47,7 +51,8 @@
                 "url": "https://poppunk.readthedocs.io/en/latest/"
             }
         ],
-        "description": "PopPUNK (Population Partitioning Using Nucleotide K-mers) uses scalable and expandable annotation- and alignment-free methods for population analysis and clustering."
+        "description": "PopPUNK (Population Partitioning Using Nucleotide K-mers) uses scalable and expandable annotation- and alignment-free methods for population analysis and clustering.",
+        "image": "/software/poppunk_v2.png"
     },
     {
         "name": "SEER and PYSEER",
@@ -61,6 +66,7 @@
                 "url": "https://pyseer.readthedocs.io/en/master/"
             }
         ],
-        "description": "SEER (sequence element enrichment analysis) is a statistical method that identifies sequence elements that are significantly enriched in a phenotype of interest. PYSEER is a further implementation of seer written in python with additional features. Both pyseer and its predecessor, seer, allow for genome-wide association studies (GWAS) to be performed in clonal organisms such as bacteria and viruses."
+        "description": "SEER (sequence element enrichment analysis) is a statistical method that identifies sequence elements that are significantly enriched in a phenotype of interest. PYSEER is a further implementation of seer written in python with additional features. Both pyseer and its predecessor, seer, allow for genome-wide association studies (GWAS) to be performed in clonal organisms such as bacteria and viruses.",
+        "image": "/software/pyseer_logo.png"
     }
 ]

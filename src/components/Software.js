@@ -17,8 +17,9 @@ const Publications = () => (
   </>
 );
 
-const Software = ({ name, links, description }) => (
+const Software = ({ name, links, description, image }) => (
   <Box>
+    <img src={image} alt={`${name}`} width="100%" />
     <Typography variant="h6">{name}</Typography>
     {links.map((link, i) => (
       <Typography key={i} variant="body2">
