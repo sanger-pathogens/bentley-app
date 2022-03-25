@@ -1,6 +1,5 @@
 import AboutUs from '../components/AboutUs';
 import ResearchThemes from '../components/ResearchThemes';
-import Publications from '../components/Publications';
 import Software from '../components/Software';
 import Team from '../components/Team';
 import Collaborators from '../components/Collaborators';
@@ -22,8 +21,8 @@ export default [
     ContentComponent: ResearchThemes,
   },
   {
-    label: 'Software',
-    title: 'Software',
+    label: 'Publications & Software',
+    title: 'Publications & Software',
     url: 'software',
     ContentComponent: Software,
   },
@@ -38,12 +37,6 @@ export default [
     title: 'Global collaboration',
     url: 'collaborators',
     ContentComponent: Collaborators,
-  },
-  {
-    label: 'Papers',
-    title: 'Selected papers',
-    url: 'papers',
-    ContentComponent: Publications,
   },
   {
     label: 'Outreach',
