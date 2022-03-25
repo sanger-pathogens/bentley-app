@@ -8,7 +8,7 @@ import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Item = ({ title, url, description, image }) => (
   <Box>
-    <img src={image} width="100%" />
+    <img src={image} alt ={`${title}`} width="100%" />
     <Link variant="h6" href={url}>{title}</Link>
     <TeamDescriptionRenderer md={description} />
   </Box>
