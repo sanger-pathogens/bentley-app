@@ -1,5 +1,3 @@
-- Alex Tokolyi
-
 - Alison Maguire
 
 - [Chrispin Chaguza](https://medicine.yale.edu/profile/chrispin_chaguza/)
