@@ -3,16 +3,17 @@
 # Deploy a release of the Bentley Group app.
 
 # check args count
-if [ $# -ne 3 ]; then
-  echo "Usage: $0 <version> <remote user> <deployment host address>"
+if [ $# -ne 4 ]; then
+  echo "Usage: $0 <version> <remote user> <deployment host address> <docker user>"
   exit 1
 fi
 
 VERSION=$1
 REMOTE_USER=$2
 REMOTE_HOST=$3
+DOCKER_USER=$4
 APP=bentley-app
-IMAGE_URL=sangerpathogens/${APP}
+IMAGE_URL=${DOCKER_USER}/${APP}
 EXPOSED_PORT=8000
 
 # Replace the running version
