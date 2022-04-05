@@ -3,49 +3,47 @@
         "name": "Professor Stephen D. Bentley",
         "role": "Team Leader",
         "imageUrl": "/people/Stephen_1_BW_2.jpg",
-        "description": "I’m interested in exploring how we can use genomics in efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low-income settings."
+        "sangerProfile": "https://www.sanger.ac.uk/person/bentley-stephen-d/",
+        "description": "I’m interested in genomics applications for efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low-income settings."
     },
     {
-        "name": "Alex Tokolyi",
+        "name": "Sophie Belman",
         "role": "PhD Student",
-        "imageUrl": "/people/BW_AlexTokolyI.jpg",
-        "description": "I'm interested in untangling the role of human and microbe-derived diversity in the heterogeneity of the human immune response."
+        "imageUrl": "/people/Sophie_1_BW.png",
+        "sangerProfile": "https://www.sanger.ac.uk/person/belman-sophie/",
+        "description": "I study global spatiotemporal dynamics of *Streptococcus pneumoniae* to understand the impact migration has on disease prevalence and prevention."
     },
     {
-        "name": "Dr. Chrispin Chaguza",
-        "role": "Post Doctoral Fellow",
-        "imageUrl": "/people/Chrispin_2_BW.jpg",
-        "description": "My research uses high-throughput sequencing approaches to understand the epidemiology, evolution and genetics of bacterial phenotypes primarily in clinically-significant pathogens."
+        "name": "Dr. Victoria Carr",
+        "role": "Principal Bioinformatician",
+        "imageUrl": "/people/BW_Vicky_square.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/carr-victoria/",
+        "description": "I work on pathogen detection and emergence in the microbiome, and high quality bioinformatic pipelines and research software for genomic surveillance."
     },
     {
-        "name": "Dr. Christine J. Boinett",
-        "role": "Product Manager and Principal Bioinformatician",
-        "imageUrl": "/people/Christine_1_BW.jpg",
-        "description": "I am involved in developing, managing and delivering bioinformatics training for our JUNO and GPS2 project partners."
+        "name": "Raymond Hsueh-Chien Cheng",
+        "role": "Masters Student",
+        "imageUrl": "/people/Raymond_BW.jpg",
+        "description": "I’m interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
+    },
+    {
+        "name": "Dr. Ana Ferreira",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/BW_Ana.png",
+        "description": "I work as part of GPS project performing analyses on *S. pneumoniae* genome collections at the country and GPSC level to characterise these populations and infer biologic insights. I also aim to enrich the project database by identifying and importing external pneumococcal genomes data from public databases. I work closely with external project partners to support their bioinformatic analyses."
     },
     {
         "name": "Dr. Dorota Jamrozy",
         "role": "Project Manager and Principal Bioinformatician",
         "imageUrl": "/people/Dorota_1_BW.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/jamrozy-dorota/",
         "description": "I coordinate the JUNO project and study genomics and evolution of Group B *Streptococcus*."
     },
     {
-        "name": "Gareth Peat",
-        "role": "Principal Software Developer",
-        "imageUrl": "/people/Gareth_2_BW.jpg",
-        "description": "I am involved in developing the software and infrastructure for the JUNO project."
-    },
-    {
-        "name": "Gerry Tonkin-Hill",
-        "role": "PhD Student",
-        "imageUrl": "/people/Gerry_1_BW.jpg",
-        "description": "I study within-host evolution and transmission in *Streptococcus pneumoniae* as well as  developing statistical and bioinformatics methods for microbial genomics."
-    },
-    {
-        "name": "Kate Mellor",
-        "role": "Bioinformatician",
-        "imageUrl": "/people/BW_Kate.png",
-        "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
+        "name": "Dr. Uzma Basit Khan",
+        "role": "Senior Computational Biologist",
+        "imageUrl": "/people/Uzma_BW.png",
+        "description": "I study antibiotic resistance mechanisms, recombination, mobile genetic elements and transmission in *Streptococcus agalactiae* to comprehend bacterial adaptation and evolution."
     },
     {
         "name": "Dr. Narender Kumar",
@@ -54,33 +52,40 @@
         "description": "I am responsible for the planning and facilitation of the WGS capacity and infrastructure setup for the GPS project."
     },
     {
-        "name": "Neil MacAlasdair",
-        "role": "PhD Student",
-        "imageUrl": "/people/Neil_1_BW.jpg",
-        "description": "I study recombination and its effects on evolution in *Neisseria meningitidis* and how this affects various populations."
-    },
-    {
-        "name": "Sophie Belman",
-        "role": "PhD Student",
-        "imageUrl": "/people/Sophie_1_BW.jpg",
-        "description": "I study global spatiotemporal dynamics of *Streptococcus pneumoniae* to understand the impact migration has on disease prevalence and prevention."
-    },
-    {
         "name": "Dr. Stephanie Wai-U Lo",
         "role": "Project Manager and Principal Bioinformatician",
         "imageUrl": "/people/Stephanie_1_BW2.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/lo-stephanie/",
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
     },
     {
-        "name": "Uzma Basit Khan",
-        "role": "Senior Computational Biologist",
-        "imageUrl": "/people/Uzma_2_BW.jpg",
-        "description": "I study antibiotic resistance mechanisms, recombination, mobile genetic elements and transmission in *Streptococcus agalactiae* to comprehend bacterial adaptation and evolution."
+        "name": "Dr. Jolynne Mokaya",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/Jolynne_BW.png",
+        "description": "I am interested in understanding the genomic epidemiology of *Streptococcus pneumoniae*. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission. I am also involved in capacity building."
     },
     {
-        "name": "Victoria Carr",
-        "role": "Scientific Programmer",
-        "imageUrl": "/people/BW_Vicky_square.png",
-        "description": "I am in the Pathogen Informatics Group working with the team to develop bioinformatics software, particularly for the GPS Project."
+        "name": "Dr. Kate Mellor",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/BW_Kate.png",
+        "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
+    },
+    {
+        "name": "Dr. Gemma Murray",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Gemma_BW.jpeg",
+        "description": "I am interested in how the ecologies of bacterial pathogens influence the evolution of antibiotic resistance, and how we can learn about this through analysis of genome sequences."
+    },
+    {
+        "name": "Nil Shchelov",
+        "role": "Senior Front-End Developer",
+        "imageUrl": "/people/bw_nil.jpg",
+        "description": "I am a software developer in the Pathogen Informatics Group. I am currently focused on developing Monocle, the data sharing platform for global genomic surveillance projects such as JUNO and GPS."
+    },
+    {
+        "name": "Alex Tokolyi",
+        "role": "PhD Student",
+        "imageUrl": "/people/BW_AlexTokolyI.jpg",
+        "description": "I'm interested in untangling the role of human and microbe-derived diversity in the heterogeneity of the human immune response."
     }
 ]

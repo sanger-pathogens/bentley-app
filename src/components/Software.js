@@ -4,8 +4,22 @@ import { Grid, Box, Typography, Link } from '@material-ui/core';
 import softwares from '../content/software';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
-const Software = ({ name, links, description }) => (
+const Publications = () => (
+  <>
+      <Link
+        variant="h6"
+        href="https://www.sanger.ac.uk/person/bentley-stephen-d/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Click here to see publications.
+      </Link>
+  </>
+);
+
+const Software = ({ name, links, description, image }) => (
   <Box>
+    <img src={image} alt={`${name}`} width="100%" />
     <Typography variant="h6">{name}</Typography>
     {links.map((link, i) => (
       <Typography key={i} variant="body2">
@@ -30,4 +44,17 @@ const Softwares = () => (
   </Box>
 );
 
-export default Softwares;
+const PubSoft = () => (
+  <React.Fragment>
+  <Typography variant="h4" style={{ paddingTop: '1rem' }}>
+    Publications
+  </Typography>
+  <Publications />
+    <Typography variant="h4" style={{ paddingTop: '1rem' }}>
+      Software
+    </Typography>
+    <Softwares />
+  </React.Fragment>
+);
+
+export default PubSoft;

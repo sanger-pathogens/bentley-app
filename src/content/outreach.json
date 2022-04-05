@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Decoding Life Podcast",
+        "url": "https://anchor.fm/decoding-life-pod",
+        "description": "This podcast tells stories of the science at the Wellcome Genome Campus and the people behind it. From PhD students to group leaders, software developers to diversity champions -- we speak with these individuals and discover the paths they have taken throughout their careers, what it’s really like to do some of these jobs, and learn about some of the science along the way. This podcast is co-hosted by Kathryn Murie and Sophie Belman and is funded by [Wellcome Genome Campus Public Engagement](https://publicengagement.wellcomeconnectingscience.org/).  It is available to listen on [Spotify](https://open.spotify.com/show/2J2W9Ob3GHdTzRUh8GrUmq?si=wrNwAoVJRd21YGHZiJ1C0g&dl_branch=1&nd=1), [Apple Podcasts](https://podcasts.apple.com/us/podcast/decoding-life/id1556132006), or anywhere else you get your podcasts.",
+        "image": "/decodinglife.png"
+    },
+    {
+        "title": "Your Digital Mentor Podcast",
+        "url": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/your-digital-mentor-podcast/",
+        "description": "The podcast is a series that aims to provide access to conversations around mentoring and other aspects of research and career development. This is delivered as part of a collaborative project between the [Wellcome Sanger Institute](https://www.sanger.ac.uk/), [Wellcome Connecting Science](https://www.wellcomeconnectingscience.org/), and the [Social Entrepreneurship to Spur Health](https://www.seshglobal.org/).",
+        "image": "/digitalmentor.png"
+    }
+]
