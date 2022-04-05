@@ -84,7 +84,7 @@ docker push <docker user>/bactgen-training-app:<version>
 ```
 
 4. Deploy the website to the server.
-You must have ssh access to the host address. If you do not then the recent contributors of this repo that still work at the Sanger should already have access. You can ask them to add your public ssh key. Additional information on remote users and host addresses can be found [here](http://mediawiki.internal.sanger.ac.uk/index.php/Websites_managed_for_team_284_(Stephen_Bentley%27s_group).
+You must have ssh access to the host address. If you do not then the recent contributors of this repo that still work at the Sanger should already have access. You can ask them to add your public ssh key. Additional information on remote users and host addresses can be found [here](http://mediawiki.internal.sanger.ac.uk/index.php/Websites_managed_for_team_284_(Stephen_Bentley%27s_group)).
 
 ```
 ./deploy.sh <version> <remote user> <deployment host address> <docker user>
