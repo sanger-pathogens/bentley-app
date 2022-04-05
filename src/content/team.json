@@ -22,7 +22,7 @@
     },
     {
         "name": "Raymond Hsueh-Chien Cheng",
-        "role": "Masters Student",
+        "role": "PhD Student",
         "imageUrl": "/people/Raymond_BW.jpg",
         "description": "I’m interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
     },
@@ -30,7 +30,7 @@
         "name": "Dr. Ana Ferreira",
         "role": "Postdoctoral Fellow",
         "imageUrl": "/people/BW_Ana.png",
-        "description": "I work as part of GPS project performing analyses on *S. pneumoniae* genome collections at the country and GPSC level to characterise these populations and infer biologic insights. I also aim to enrich the project database by identifying and importing external pneumococcal genomes data from public databases. I work closely with external project partners to support their bioinformatic analyses."
+        "description": "I characterise *S. pneumoniae* genome collections at the country/GPSC level to infer biologic insights, enrich the project database with genomes from public databases and support external project partners."
     },
     {
         "name": "Dr. Dorota Jamrozy",
