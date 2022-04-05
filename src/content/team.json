@@ -27,6 +27,12 @@
         "description": "I’m interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
     },
     {
+        "name": "Dr. Ana Ferreira",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/BW_Ana.png",
+        "description": "I work as part of GPS project performing analyses on *S. pneumoniae* genome collections at the country and GPSC level to characterise these populations and infer biologic insights. I also aim to enrich the project database by identifying and importing external pneumococcal genomes data from public databases. I work closely with external project partners to support their bioinformatic analyses."
+    },
+    {
         "name": "Dr. Dorota Jamrozy",
         "role": "Project Manager and Principal Bioinformatician",
         "imageUrl": "/people/Dorota_1_BW.jpg",
@@ -51,6 +57,12 @@
         "imageUrl": "/people/Stephanie_1_BW2.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/lo-stephanie/",
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
+    },
+    {
+        "name": "Dr. Jolynne Mokaya",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/Jolynne_BW.png",
+        "description": "I am interested in understanding the genomic epidemiology of *Streptococcus pneumoniae*. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission. I am also involved in capacity building."
     },
     {
         "name": "Dr. Kate Mellor",
