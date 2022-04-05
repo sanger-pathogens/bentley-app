@@ -1,5 +1,5 @@
 # build step
-FROM node:latest as builder
+FROM node:8.16.0 as builder
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY . /app
