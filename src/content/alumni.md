@@ -1,7 +1,5 @@
 - Alison Maguire
 
-- [Chrispin Chaguza](https://medicine.yale.edu/profile/chrispin_chaguza/)
-
 - Christine J. Boinett
 
 - [Claire Chewapreecha](https://www.tropicalmedicine.ox.ac.uk/team/claire-chewapreecha)
