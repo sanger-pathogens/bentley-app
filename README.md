@@ -21,7 +21,7 @@ docker build -t <docker user>/bentley-app:<version> .
 3. Push image to repository of `<docker user>`
 
 ```
-docker push <docker user>/bactgen-training-app:<version>
+docker push <docker user>/bentley-app:<version>
 ```
 
 4. Deploy the website to the server.
