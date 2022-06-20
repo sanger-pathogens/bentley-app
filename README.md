@@ -9,7 +9,7 @@ yarn start
 ```
 
 ## Deploying live website
-1. Tag the repo following versioning convention in current tags e.g. `v0.1.13`
+1. Once you have merged the branch into `master`, tag the repo following versioning convention in current tags e.g. `v0.1.13`
 
 2. Build image using tag version (without the v e.g. `0.1.13`). The `<docker user>` must be the name of the docker repository you plan to use
 
