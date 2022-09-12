@@ -15,7 +15,7 @@
         "links": [
             {
                 "label": "View documentation",
-                "url": "http://sanger-pathogens.github.io/gubbins/"
+                "url": "https://github.com/nickjcroucher/gubbins"
             }
         ],
         "description": "Gubbins (Genealogies Unbiased By recomBinations In Nucleotide Sequences) identifies recombination regions in the bacterial genome using an algorithm that iteratively identifies loci containing elevated densities of base substitutions while concurrently constructing a phylogeny based on the putative point mutations outside of these regions.",

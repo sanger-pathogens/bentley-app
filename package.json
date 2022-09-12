@@ -1,6 +1,6 @@
 {
   "name": "bentley-group-app",
-  "version": "0.1.10",
+  "version": "0.1.17",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.4",
@@ -14,20 +14,21 @@
     "react": "^16.13.0",
     "react-anime": "^3.0.3",
     "react-dom": "^16.13.0",
-    "react-markdown": "^4.3.1",
+    "react-markdown": "^8.0.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "^5.0.1",
     "react-scrollable-anchor": "^0.6.1",
     "react-twitter-embed": "^3.0.3",
     "topojson": "^3.0.2",
-    "typeface-inter": "^3.12.0",
+    "@fontsource/inter": "^4.5.12",
     "use-measure": "^0.3.0",
-    "world-atlas": "^2.0.2"
+    "world-atlas": "^2.0.2",
+    "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "yarn run collaborators && REACT_APP_GIT_REVISION=\"$(git rev-parse --short HEAD)\" react-scripts start",
     "build": "yarn run collaborators && REACT_APP_GIT_REVISION=\"$(git rev-parse --short HEAD)\" react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!@toolz/allow)/\" --env=jsdom",
     "eject": "react-scripts eject",
     "collaborators": "cat src/content/collaborators.csv | csv2json > src/content/collaborators.json"
   },

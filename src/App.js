@@ -7,7 +7,7 @@ import {
   responsiveFontSizes,
 } from '@material-ui/core/styles';
 
-import 'typeface-inter';
+import '@fontsource/inter';
 
 import theme from './theme';
 import PageHome from './components/PageHome';

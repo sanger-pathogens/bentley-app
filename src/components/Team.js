@@ -62,7 +62,9 @@ const Team = () => (
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
       Alumni
     </Typography>
-    <Markdown md={mdAlumni} />
+    <Typography variant="body3">
+        <Markdown md={mdAlumni} />
+    </Typography>
   </React.Fragment>
 );
 

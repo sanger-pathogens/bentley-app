@@ -17,6 +17,7 @@ import { Menu as MenuIcon } from '@material-ui/icons';
 const useStyles = makeStyles(theme => ({
   headerLink: {
     color: 'white',
+    fontWeight: 'bold',
   },
 }));
 
