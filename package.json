@@ -16,7 +16,6 @@
     "react-dom": "^16.13.0",
     "react-markdown": "^8.0.3",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^5.0.1",
     "react-scrollable-anchor": "^0.6.1",
     "react-twitter-embed": "^3.0.3",
     "topojson": "^3.0.2",
@@ -48,7 +47,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "react-scripts": "^5.0.1"
   },
   "resolutions": {
     "minimist": "^1.2.5"
