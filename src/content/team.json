@@ -33,6 +33,12 @@
         "description": "I characterise *S. pneumoniae* genome collections at the country/GPSC level to infer biologic insights, enrich the project database with genomes from public databases and support external project partners."
     },
     {
+        "name": "Dr. Harry Hung",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Harry_BW.jpg",
+        "description": "I work on both the analysis and visualisation of the Global Pneumococcal Sequencing Project."
+    },
+    {
         "name": "Minh Thi Huynh",
         "role": "MPhil Student",
         "imageUrl": "/people/Thi_BW.jpg",
