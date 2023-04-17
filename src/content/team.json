@@ -52,6 +52,12 @@
         "description": "I coordinate the JUNO project and study genomics and evolution of Group B *Streptococcus*."
     },
     {
+        "name": "Dr. Oumie Kuyateh",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/Oumie_BW.jpg",
+        "description": "I am interested in understanding how the respiratory microbiome develops in early life and how it is affected by environmental factors such as carbon monoxide exposure, incidences of disease, and antibiotic exposure. "
+    },
+    {
         "name": "Dr. Uzma Basit Khan",
         "role": "Senior Computational Biologist",
         "imageUrl": "/people/Uzma_BW.png",
@@ -81,12 +87,6 @@
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/BW_Kate.png",
         "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
-    },
-    {
-        "name": "Nil Shchelov",
-        "role": "Senior Front-End Developer",
-        "imageUrl": "/people/bw_nil.jpg",
-        "description": "I am a software developer in the Pathogen Informatics Group. I am currently focused on developing Monocle, the data sharing platform for global genomic surveillance projects such as JUNO and GPS."
     },
     {
         "name": "Alex Tokolyi",

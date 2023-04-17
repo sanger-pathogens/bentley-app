@@ -16,4 +16,6 @@
 
 - [Nicholas Croucher](https://www.imperial.ac.uk/people/n.croucher)
 
+- Nil Shchelov
+
 - [Rebecca Gladstone](https://www.linkedin.com/in/rebecca-gladstone-31a52325/)
