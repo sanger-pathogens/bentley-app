@@ -2,11 +2,24 @@ import React from 'react';
 import raw from 'raw.macro';
 
 import Markdown from './Markdown';
+import Collapsible from './Collapsible';
 
-const mdResearchThemes = raw('../content/research-themes.md');
+const mdResearchIntro = raw('../content/research-intro.md');
+const mdResearchGPS = raw('../content/research-gps.md');
+const mdResearchGBS = raw('../content/research-gbs.md');
 
 const ResearchThemes = () => {
-  return <Markdown md={mdResearchThemes} />;
+  return (
+    <div>
+      <Markdown md={mdResearchIntro} />
+      <Collapsible title='Streptococcus pneumoniae'>
+        <Markdown md={mdResearchGPS} />
+      </Collapsible>
+      <Collapsible title='Streptococcus agalactiae'>
+        <Markdown md={mdResearchGBS} />
+      </Collapsible>
+    </div>
+  );
 };
 
 export default ResearchThemes;
