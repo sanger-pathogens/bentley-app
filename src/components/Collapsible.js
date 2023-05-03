@@ -47,7 +47,7 @@ const Collapsible = (props) => {
 
                 <Collapse in={open} timeout="auto" unmountOnExit>
                     <CardContent>
-                        {props.children}
+                        <Typography align={"justify"}>{props.children}</Typography>
                     </CardContent>
                 </Collapse>
             </Card>
