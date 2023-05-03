@@ -9,7 +9,7 @@ const renderers = {
       {children}
     </Typography>
   ),
-  image: props => <img {...props} width="250px" />,
+  image: props => <img {...props} width="250px" alt='No description'/>,
   link: props => <Link {...props} target="_blank" rel="noopener noreferrer" />,
 };
 
