@@ -1,9 +1,7 @@
 import React from 'react';
-import raw from 'raw.macro';
-import { Grid, Box, Typography, Link } from '@material-ui/core';
+import { Grid, Box, Link } from '@material-ui/core';
 
 import outreach from '../content/outreach';
-import Markdown from './Markdown';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
 const Item = ({ title, url, description, image }) => (
