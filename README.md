@@ -15,7 +15,7 @@ yarn start
 
 ```
 cd bentley-app
-docker build -t <docker user>/bentley-app:<version> .
+docker buildx build --platform linux/amd64 -t <docker user>/bentley-app:<version> .
 ```
 
 3. Push image to repository of `<docker user>`
