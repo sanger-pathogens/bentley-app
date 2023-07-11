@@ -30,6 +30,12 @@
         "description": "I study recombination and its effects on evolution in *Neisseria meningitidis* and how this affects various populations."
     },
     {
+        "name": "Dr. Gemma Murray",
+        "role": "Senior Research Fellow",
+        "imageUrl": "/people/Gemma_BW.jpeg",
+        "description": "I am interested in how the ecologies of bacterial pathogens influence the evolution of antibiotic resistance, and how we can learn about this through analysis of genome sequences."
+    },
+    {
         "name": "Dr. Gerry Tonkin-Hill",
         "role": "Postdoctoral fellow",
         "imageUrl": "/people/Gerry_1_BW.jpg",

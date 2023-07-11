@@ -33,6 +33,12 @@
         "description": "I characterise *S. pneumoniae* genome collections at the country/GPSC level to infer biologic insights, enrich the project database with genomes from public databases and support external project partners."
     },
     {
+        "name": "Dr. Harry Hung",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Harry_BW.jpg",
+        "description": "I work on both the analysis and visualisation of the Global Pneumococcal Sequencing Project."
+    },
+    {
         "name": "Minh Thi Huynh",
         "role": "MPhil Student",
         "imageUrl": "/people/Thi_BW.jpg",
@@ -66,21 +72,15 @@
     },
     {
         "name": "Dr. Jolynne Mokaya",
-        "role": "Postdoctoral Fellow",
+        "role": "Senior Bioinformatician",
         "imageUrl": "/people/Jolynne_BW.png",
-        "description": "I am interested in understanding the genomic epidemiology of *Streptococcus pneumoniae*. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission. I am also involved in capacity building."
+        "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
     },
     {
         "name": "Dr. Kate Mellor",
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/BW_Kate.png",
         "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
-    },
-    {
-        "name": "Dr. Gemma Murray",
-        "role": "Senior Bioinformatician",
-        "imageUrl": "/people/Gemma_BW.jpeg",
-        "description": "I am interested in how the ecologies of bacterial pathogens influence the evolution of antibiotic resistance, and how we can learn about this through analysis of genome sequences."
     },
     {
         "name": "Nil Shchelov",
