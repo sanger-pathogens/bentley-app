@@ -52,12 +52,6 @@
         "description": "I coordinate the JUNO project and study genomics and evolution of Group B *Streptococcus*."
     },
     {
-        "name": "Dr. Oumie Kuyateh",
-        "role": "Postdoctoral Fellow",
-        "imageUrl": "/people/Oumie_BW.jpg",
-        "description": "I am interested in understanding how the respiratory microbiome develops in early life and how it is affected by environmental factors such as carbon monoxide exposure, incidences of disease, and antibiotic exposure. "
-    },
-    {
         "name": "Dr. Uzma Basit Khan",
         "role": "Senior Computational Biologist",
         "imageUrl": "/people/Uzma_BW.png",
@@ -70,6 +64,12 @@
         "description": "I am responsible for the planning and facilitation of the WGS capacity and infrastructure setup for the GPS project."
     },
     {
+        "name": "Dr. Oumie Kuyateh",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/Oumie_BW.jpg",
+        "description": "I am interested in understanding how the respiratory microbiome develops in early life and how it is affected by environmental factors such as carbon monoxide exposure, incidences of disease, and antibiotic exposure. "
+    },
+    {
         "name": "Dr. Stephanie Wai-U Lo",
         "role": "Project Manager and Principal Bioinformatician",
         "imageUrl": "/people/Stephanie_1_BW2.jpg",
@@ -77,16 +77,16 @@
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
     },
     {
-        "name": "Dr. Jolynne Mokaya",
-        "role": "Senior Bioinformatician",
-        "imageUrl": "/people/Jolynne_BW.png",
-        "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
-    },
-    {
         "name": "Dr. Kate Mellor",
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/BW_Kate.png",
         "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
+    },
+    {
+        "name": "Dr. Jolynne Mokaya",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Jolynne_BW.png",
+        "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
     },
     {
         "name": "Alex Tokolyi",
