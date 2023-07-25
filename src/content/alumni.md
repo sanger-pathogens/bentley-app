@@ -19,3 +19,5 @@
 - Nil Shchelov
 
 - [Rebecca Gladstone](https://www.linkedin.com/in/rebecca-gladstone-31a52325/)
+
+- Minh Thi Huynh
