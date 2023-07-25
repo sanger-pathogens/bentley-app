@@ -87,11 +87,5 @@
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/Jolynne_BW.png",
         "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
-    },
-    {
-        "name": "Alex Tokolyi",
-        "role": "PhD Student",
-        "imageUrl": "/people/BW_AlexTokolyI.jpg",
-        "description": "I'm interested in untangling the role of human and microbe-derived diversity in the heterogeneity of the human immune response."
     }
 ]
