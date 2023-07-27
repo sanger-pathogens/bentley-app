@@ -93,5 +93,11 @@
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/Jolynne_BW.png",
         "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
+    },
+    {
+        "name": "Eunice Waithira Njuguna",
+        "role": "PhD Student (London School of Hygiene and Tropical Medicine)",
+        "imageUrl": "/people/Eunice_BW.jpg",
+        "description": "I am interested in understanding the pneumococcal genomic epidemiology in Kenya, focusing on serotype replacement, and applying mathematical models to predict the effectiveness of pneumococcal conjugate vaccines in sub-Saharan Africa."
     }
 ]
