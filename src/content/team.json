@@ -52,6 +52,12 @@
         "description": "I coordinate the JUNO project and study genomics and evolution of Group B *Streptococcus*."
     },
     {
+        "name": "Dr. Nida Javaid",
+        "role": "Postdoctoral fellow",
+        "imageUrl": "/people/BW_Nida.png",
+        "description": "I am interested in investigating potential vaccine targets for *Streptococcus agalactiae* using genomic and pan-genomic approaches."
+    },
+    {
         "name": "Dr. Uzma Basit Khan",
         "role": "Senior Computational Biologist",
         "imageUrl": "/people/Uzma_BW.png",
