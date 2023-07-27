@@ -14,17 +14,17 @@
         "description": "I study global spatiotemporal dynamics of *Streptococcus pneumoniae* to understand the impact migration has on disease prevalence and prevention."
     },
     {
-        "name": "Dr. Victoria Carr",
-        "role": "Principal Bioinformatician",
-        "imageUrl": "/people/BW_Vicky_square.jpg",
-        "sangerProfile": "https://www.sanger.ac.uk/person/carr-victoria/",
-        "description": "I work on pathogen detection and emergence in the microbiome, and high quality bioinformatic pipelines and research software for genomic surveillance."
-    },
-    {
         "name": "Raymond Hsueh-Chien Cheng",
         "role": "PhD Student",
         "imageUrl": "/people/Raymond_BW.jpg",
         "description": "I’m interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
+    },
+    {
+        "name": "Dr. Victoria Dyster",
+        "role": "Principal Bioinformatician",
+        "imageUrl": "/people/BW_Vicky_square.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/carr-victoria/",
+        "description": "I work on pathogen detection and emergence in the microbiome, and high quality bioinformatic pipelines and research software for genomic surveillance."
     },
     {
         "name": "Dr. Ana Ferreira",
@@ -33,16 +33,16 @@
         "description": "I characterise *S. pneumoniae* genome collections at the country/GPSC level to infer biologic insights, enrich the project database with genomes from public databases and support external project partners."
     },
     {
+        "name": "Luis González",
+        "role": "PhD Student",
+        "imageUrl": "/people/Luis_BW.jpg",
+        "description": "I study the composition, diversity, and functionality of the respiratory microbiome at different sampling sites to understand its assembly dynamics and impact on health and disease."
+    },
+    {
         "name": "Dr. Harry Hung",
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/Harry_BW.jpg",
         "description": "I work on both the analysis and visualisation of the Global Pneumococcal Sequencing Project."
-    },
-    {
-        "name": "Minh Thi Huynh",
-        "role": "MPhil Student",
-        "imageUrl": "/people/Thi_BW.jpg",
-        "description": "I characterise pneumococcal lineages encoding for high invasive potential serotypes in different regions and their antimicrobial resistance profile pre- and post- vaccine introduction."
     },
     {
         "name": "Dr. Dorota Jamrozy",
@@ -52,10 +52,10 @@
         "description": "I coordinate the JUNO project and study genomics and evolution of Group B *Streptococcus*."
     },
     {
-        "name": "Dr. Oumie Kuyateh",
-        "role": "Postdoctoral Fellow",
-        "imageUrl": "/people/Oumie_BW.jpg",
-        "description": "I am interested in understanding how the respiratory microbiome develops in early life and how it is affected by environmental factors such as carbon monoxide exposure, incidences of disease, and antibiotic exposure. "
+        "name": "Dr. Nida Javaid",
+        "role": "Postdoctoral fellow",
+        "imageUrl": "/people/BW_Nida.png",
+        "description": "I am interested in investigating potential vaccine targets for *Streptococcus agalactiae* using genomic and pan-genomic approaches."
     },
     {
         "name": "Dr. Uzma Basit Khan",
@@ -70,17 +70,17 @@
         "description": "I am responsible for the planning and facilitation of the WGS capacity and infrastructure setup for the GPS project."
     },
     {
+        "name": "Dr. Oumie Kuyateh",
+        "role": "Postdoctoral Fellow",
+        "imageUrl": "/people/Oumie_BW.jpg",
+        "description": "I am interested in understanding how the respiratory microbiome develops in early life and how it is affected by environmental factors such as carbon monoxide exposure, incidences of disease, and antibiotic exposure. "
+    },
+    {
         "name": "Dr. Stephanie Wai-U Lo",
         "role": "Project Manager and Principal Bioinformatician",
         "imageUrl": "/people/Stephanie_1_BW2.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/lo-stephanie/",
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
-    },
-    {
-        "name": "Dr. Jolynne Mokaya",
-        "role": "Senior Bioinformatician",
-        "imageUrl": "/people/Jolynne_BW.png",
-        "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
     },
     {
         "name": "Dr. Kate Mellor",
@@ -89,9 +89,15 @@
         "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
     },
     {
-        "name": "Alex Tokolyi",
-        "role": "PhD Student",
-        "imageUrl": "/people/BW_AlexTokolyI.jpg",
-        "description": "I'm interested in untangling the role of human and microbe-derived diversity in the heterogeneity of the human immune response."
+        "name": "Dr. Jolynne Mokaya",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Jolynne_BW.png",
+        "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
+    },
+    {
+        "name": "Eunice Waithira Njuguna",
+        "role": "PhD Student (London School of Hygiene and Tropical Medicine)",
+        "imageUrl": "/people/Eunice_BW.jpg",
+        "description": "I am interested in understanding the pneumococcal genomic epidemiology in Kenya, focusing on serotype replacement, and applying mathematical models to predict the effectiveness of pneumococcal conjugate vaccines in sub-Saharan Africa."
     }
 ]
