@@ -14,17 +14,17 @@
         "description": "I study global spatiotemporal dynamics of *Streptococcus pneumoniae* to understand the impact migration has on disease prevalence and prevention."
     },
     {
-        "name": "Dr. Victoria Carr",
-        "role": "Principal Bioinformatician",
-        "imageUrl": "/people/BW_Vicky_square.jpg",
-        "sangerProfile": "https://www.sanger.ac.uk/person/carr-victoria/",
-        "description": "I work on pathogen detection and emergence in the microbiome, and high quality bioinformatic pipelines and research software for genomic surveillance."
-    },
-    {
         "name": "Raymond Hsueh-Chien Cheng",
         "role": "PhD Student",
         "imageUrl": "/people/Raymond_BW.jpg",
         "description": "I’m interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
+    },
+    {
+        "name": "Dr. Victoria Dyster",
+        "role": "Principal Bioinformatician",
+        "imageUrl": "/people/BW_Vicky_square.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/carr-victoria/",
+        "description": "I work on pathogen detection and emergence in the microbiome, and high quality bioinformatic pipelines and research software for genomic surveillance."
     },
     {
         "name": "Dr. Ana Ferreira",
