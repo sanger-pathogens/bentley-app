@@ -1,13 +1,11 @@
 import React from 'react';
-import raw from 'raw.macro';
-
 import Markdown from './Markdown';
 import Collapsible from './Collapsible';
 
-const mdResearchIntro = raw('../content/research-intro.md');
-const mdResearchGPS = raw('../content/research-gps.md');
-const mdResearchJUNO = raw('../content/research-juno.md');
-const mdResearchMeningococcus = raw('../content/research-meningococcus.md');
+const mdResearchIntro = 'markdown/research-intro.md';
+const mdResearchGPS = 'markdown/research-gps.md';
+const mdResearchJUNO = 'markdown/research-juno.md';
+const mdResearchMeningococcus = 'markdown/research-meningococcus.md';
 
 const ResearchThemes = () => {
   return (

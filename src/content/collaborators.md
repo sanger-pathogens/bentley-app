@@ -1,1 +1,0 @@
-We collaborate with institutions around the world as part of the GPS and Juno projects.

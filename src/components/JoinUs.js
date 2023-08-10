@@ -1,9 +1,7 @@
 import React from 'react';
-import raw from 'raw.macro';
-
 import Markdown from './Markdown';
 
-const mdJoin = raw('../content/joinus.md');
+const mdJoin = 'markdown/joinus.md';
 
 const JoinUs = () => (
   <React.Fragment>

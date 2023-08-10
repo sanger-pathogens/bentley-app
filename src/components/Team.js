@@ -1,5 +1,4 @@
 import React from 'react';
-import raw from 'raw.macro';
 import { Grid, Box, Typography, Link } from '@material-ui/core';
 
 import currentTeam from '../content/team';
@@ -7,8 +6,8 @@ import honoraryTeam from '../content/honorary-team';
 import Markdown from './Markdown';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
 
-const mdVisitors = raw('../content/visitors.md');
-const mdAlumni = raw('../content/alumni.md');
+const mdVisitors = 'markdown/visitors.md';
+const mdAlumni = 'markdown/alumni.md';
 
 const Person = ({ name, role, imageUrl, sangerProfile, description }) => (
   <Box>

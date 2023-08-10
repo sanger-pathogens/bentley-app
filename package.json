@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^7.1.2",
     "csv2json": "^2.0.2",
     "d3": "^5.15.0",
-    "raw.macro": "^0.3.0",
     "react": "^16.13.0",
     "react-anime": "^3.0.3",
     "react-dom": "^16.13.0",
