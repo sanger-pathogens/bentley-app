@@ -8,16 +8,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "animejs": "^3.2.1",
     "csv2json": "^2.0.2",
     "d3": "^5.15.0",
-    "react": "^16.13.0",
-    "react-anime": "^3.0.3",
+    "react": "^18.2.0",
     "react-dom": "^16.13.0",
-    "react-markdown": "^4.3.1",
+    "react-markdown": "^8.0.7",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-scrollable-anchor": "^0.6.1",
-    "react-twitter-embed": "^3.0.3",
+    "react-twitter-embed": "^4.0.4",
     "topojson": "^3.0.2",
     "typeface-inter": "^3.12.0",
     "use-measure": "^0.3.0",
@@ -46,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^3.0.1"
   },
   "resolutions": {
     "minimist": "^1.2.5"
