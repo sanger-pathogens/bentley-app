@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Grid, Link, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import ScrollableAnchor from 'react-scrollable-anchor';
 
 import funders from '../content/funders';
 
@@ -14,14 +13,14 @@ const useStyles = makeStyles(theme => ({
 const Funders = () => {
   const classes = useStyles();
   return (
-    <Box
-      className={classes.funders}
-      bgcolor="black"
-      color="text.primary"
-      textAlign="center"
-      p={2}
-    >
-      <ScrollableAnchor id="funders">
+    <div id={'funders'}>
+      <Box
+        className={classes.funders}
+        bgcolor="black"
+        color="text.primary"
+        textAlign="center"
+        p={2}
+      >
         <Box>
           <Typography variant="h4" gutterBottom>
             Our funders
@@ -45,8 +44,8 @@ const Funders = () => {
             ))}
           </Grid>
         </Box>
-      </ScrollableAnchor>
-    </Box>
+      </Box>
+    </div>
   );
 };
 
