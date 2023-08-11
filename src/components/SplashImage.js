@@ -1,7 +1,7 @@
 import React from 'react';
-import { Grid, Box, Typography, Link } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { ArrowDownward } from '@material-ui/icons';
+import { Grid, Box, Typography, Link } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
+import { ArrowDownward } from '@mui/icons-material';
 
 import AnimatedTextPath from './AnimatedTextPath';
 

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import anime from 'animejs';
 import useMeasure from 'use-measure';
-import { useMediaQuery } from '@material-ui/core';
+import { useMediaQuery } from '@mui/material';
 
 // see https://codepen.io/alaingalvan/embed/rrZXYB/?height=480&theme-id=0&default-tab=js,result&embed-version=2
 class Anime extends React.Component {

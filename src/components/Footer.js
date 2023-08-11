@@ -1,6 +1,6 @@
 import React from 'react';
-import { Box, Grid, Link } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { Box, Grid, Link } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
 
 import Funders from './Funders';
 import TwitterFeed from './TwitterFeed';

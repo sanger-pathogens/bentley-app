@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Link } from '@material-ui/core';
+import { Grid, Box, Link } from '@mui/material';
 
 import outreach from '../content/outreach';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';

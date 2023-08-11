@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Typography, Link } from '@material-ui/core';
+import { Grid, Box, Typography, Link } from '@mui/material';
 
 import currentTeam from '../content/team';
 import honoraryTeam from '../content/honorary-team';

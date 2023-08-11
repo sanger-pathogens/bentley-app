@@ -23,9 +23,12 @@ const theme = {
     ].join(','),
   },
   palette: {
-    type: 'dark',
+    mode: 'dark',
     primary: { main: primary },
     secondary: { main: secondary },
+    background: {
+      paper: background
+    }
   },
   status: {
     danger: 'orange',

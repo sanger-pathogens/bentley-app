@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Tooltip, Typography } from '@material-ui/core';
+import { Tooltip, Typography } from '@mui/material';
 import useMeasure from 'use-measure';
 import { geoNaturalEarth1, geoPath, geoGraticule10, min } from 'd3';
 import { feature } from 'topojson';

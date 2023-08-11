@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import { Typography, Link } from '@material-ui/core';
+import { Typography, Link } from '@mui/material';
 
 const headerRenderer = ({ level, children }) => <Typography variant={`h${level}`} style={{ paddingTop: '1rem' }}>{children}</Typography>
 

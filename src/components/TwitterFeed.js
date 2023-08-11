@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, Typography } from '@material-ui/core';
+import { Box, Grid, Typography } from '@mui/material';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 const TwitterFeed = () => (

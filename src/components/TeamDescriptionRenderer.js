@@ -1,6 +1,6 @@
 import React from 'react';
 import Markdown from 'react-markdown';
-import { Typography, Link } from '@material-ui/core';
+import { Typography, Link } from '@mui/material';
 
 const renderers = {
   p: ({ children }) => (
