@@ -1,5 +1,5 @@
 import React from 'react';
-import Markdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
 import { Typography, Link } from '@mui/material';
 
 const renderers = {
@@ -10,7 +10,7 @@ const renderers = {
 };
 
 const TeamDescriptionRenderer = ({ md }) => (
-  <Markdown children={md} components={renderers} />
+  <ReactMarkdown children={md} components={renderers} />
 );
 
 export default TeamDescriptionRenderer;

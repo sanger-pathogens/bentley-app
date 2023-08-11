@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 import { Typography, Link } from '@mui/material';
@@ -17,18 +17,6 @@ const renderers = {
   a: props => <Link {...props} target="_blank" rel="noopener noreferrer" />,
 };
 
-const Markdown = ({ md }) => {
-  const [content, setContent] = useState("");
-
-  useEffect(() => {
-    fetch(md)
-      .then((res) => res.text())
-      .then((text) => setContent(text))
-  }, [md])
-
-  return (
-    <ReactMarkdown children={content} components={renderers} />
-  )
-};
+const Markdown = ({ mdContent }) => <ReactMarkdown children={mdContent} components={renderers} />
 
 export default Markdown;

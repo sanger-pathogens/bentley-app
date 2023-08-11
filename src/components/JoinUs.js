@@ -1,12 +1,15 @@
 import React from 'react';
 import Markdown from './Markdown';
+import useFetchMarkDown from '../hooks/useFetchMarkDown';
 
-const mdJoin = 'markdown/joinus.md';
+const JoinUs = () => {
+  const mdJoin = useFetchMarkDown({ md: 'markdown/joinus.md' });
 
-const JoinUs = () => (
-  <React.Fragment>
-    <Markdown md={mdJoin} />
-  </React.Fragment>
-);
+  return(
+    <React.Fragment>
+      <Markdown mdContent={mdJoin} />
+    </React.Fragment>
+  )
+};
 
 export default JoinUs;
