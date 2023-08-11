@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline } from '@material-ui/core';
 import {
   ThemeProvider,
@@ -19,10 +19,9 @@ const App = () => (
     <CssBaseline />
     <ThemeProvider theme={generatedTheme}>
       <Router>
-        <Switch>
-          <Route exact path="/" component={PageHome} />
-          {/* <Route path="*" component={Page404} /> */}
-        </Switch>
+        <Routes>
+          <Route path="/" element={<PageHome />} />
+        </Routes>
       </Router>
     </ThemeProvider>
   </React.Fragment>
