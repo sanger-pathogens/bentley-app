@@ -3,7 +3,7 @@ export const secondary = '#651fff';
 export const highlight = '#f5f9a7';
 export const background = '#424242';
 
-export default {
+const theme = {
   typography: {
     button: {
       textTransform: 'none',
@@ -67,3 +67,5 @@ export default {
     },
   },
 };
+
+export default theme

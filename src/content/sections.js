@@ -7,7 +7,7 @@ import Outreach from '../components/Outreach';
 import Gallery from '../components/Gallery';
 import JoinUs from '../components/JoinUs';
 
-export default [
+const sectionsList = [
   {
     label: 'About Us',
     title: 'About us',
@@ -57,3 +57,5 @@ export default [
     ContentComponent: JoinUs,
   },
 ];
+
+export default sectionsList
