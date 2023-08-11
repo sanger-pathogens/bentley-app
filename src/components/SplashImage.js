@@ -32,7 +32,7 @@ const SplashImage = () => {
     <Box className={classes.splash} width="100%" height="100vh">
       <Grid
         container
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         style={{ height: '100vh' }}
       >

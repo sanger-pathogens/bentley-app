@@ -101,7 +101,7 @@ const Header = ({ navigation }) => {
       elevation={0}
     >
       <Toolbar variant="dense">
-        <Grid container alignItems="center" justify="space-between" spacing={4}>
+        <Grid container alignItems="center" justifyContent="space-between" spacing={4}>
           <Grid item>
             {trigger ? (
               <Button className={classes.headerLink} href="/" component={Link}>

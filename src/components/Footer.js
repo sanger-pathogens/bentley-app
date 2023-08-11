@@ -25,7 +25,7 @@ const Footer = () => {
       <TwitterFeed />
       <Funders />
       <Box p={3} bgcolor="primary.main">
-        <Grid container alignItems="center" justify="space-between" spacing={2}>
+        <Grid container alignItems="center" justifyContent="space-between" spacing={2}>
           <FooterItem heading="Sites">
             {sites.map((site, i) => (
               <React.Fragment key={i}>
@@ -59,7 +59,7 @@ const Footer = () => {
         </Grid>
       </Box>
       <Box p={3} bgcolor="primary.main" borderTop="2px solid white">
-        <Grid container alignItems="center" justify="space-between" spacing={2}>
+        <Grid container alignItems="center" justifyContent="space-between" spacing={2}>
           <Grid item xs={12} sm={6}>
             <Link
               href="https://www.sanger.ac.uk/"

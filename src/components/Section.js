@@ -17,7 +17,7 @@ const Section = ({ anchorId, title, ContentComponent }) => {
   return (
     <Grid
       container
-      justify="center"
+      justifyContent="center"
       spacing={1}
       className={classes.gridContainer}
     >

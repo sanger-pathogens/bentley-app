@@ -10,7 +10,7 @@ const TwitterFeed = () => (
         <Typography variant="h4" gutterBottom>
           In the news
         </Typography>
-        <Grid container justify="center">
+        <Grid container justifyContent="center">
           <Grid item xs={12} sm={8} md={6} lg={4}>
             <Box p={2}>
               <TwitterTimelineEmbed
