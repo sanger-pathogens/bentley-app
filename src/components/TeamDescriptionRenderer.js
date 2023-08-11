@@ -1,16 +1,16 @@
 import React from 'react';
-import Markdown from 'react-markdown';
-import { Typography, Link } from '@material-ui/core';
+import ReactMarkdown from 'react-markdown';
+import { Typography, Link } from '@mui/material';
 
 const renderers = {
-  paragraph: ({ children }) => (
+  p: ({ children }) => (
     <Typography variant="body2">{children}</Typography>
   ),
-  link: props => <Link {...props} target="_blank" rel="noopener noreferrer" />,
+  a: props => <Link {...props} target="_blank" rel="noopener noreferrer" />,
 };
 
 const TeamDescriptionRenderer = ({ md }) => (
-  <Markdown source={md} renderers={renderers} />
+  <ReactMarkdown children={md} components={renderers} />
 );
 
 export default TeamDescriptionRenderer;

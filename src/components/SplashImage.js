@@ -1,7 +1,7 @@
 import React from 'react';
-import { Grid, Box, Typography, Link } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { ArrowDownward } from '@material-ui/icons';
+import { Grid, Box, Typography, Link } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
+import { ArrowDownward } from '@mui/icons-material';
 
 import AnimatedTextPath from './AnimatedTextPath';
 
@@ -32,7 +32,7 @@ const SplashImage = () => {
     <Box className={classes.splash} width="100%" height="100vh">
       <Grid
         container
-        justify="center"
+        justifyContent="center"
         alignItems="center"
         style={{ height: '100vh' }}
       >

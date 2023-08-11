@@ -10,9 +10,9 @@ import {
   IconButton,
   useScrollTrigger,
   Hidden,
-} from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
-import { Menu as MenuIcon } from '@material-ui/icons';
+} from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
+import { Menu as MenuIcon } from '@mui/icons-material';
 
 const useStyles = makeStyles(theme => ({
   headerLink: {
@@ -58,7 +58,7 @@ const NavigationMenu = ({ navigation }) => {
         onClick={handleClick}
         color="inherit"
         aria-label="menu"
-      >
+        size="large">
         <MenuIcon />
       </IconButton>
       <Menu
@@ -101,7 +101,7 @@ const Header = ({ navigation }) => {
       elevation={0}
     >
       <Toolbar variant="dense">
-        <Grid container alignItems="center" justify="space-between" spacing={4}>
+        <Grid container alignItems="center" justifyContent="space-between" spacing={4}>
           <Grid item>
             {trigger ? (
               <Button className={classes.headerLink} href="/" component={Link}>
@@ -110,7 +110,7 @@ const Header = ({ navigation }) => {
             ) : null}
           </Grid>
           <Grid item>
-            <Hidden smDown>
+            <Hidden mdDown>
               <NavigationFlat navigation={navigation} />
             </Hidden>
             <Hidden mdUp>

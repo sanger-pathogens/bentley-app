@@ -1,12 +1,11 @@
 import React from 'react';
-import raw from 'raw.macro';
-
 import Markdown from './Markdown';
-
-const mdAboutUs = raw('../content/about-us.md');
+import useFetchMarkDown from '../hooks/useFetchMarkDown';
 
 const AboutUs = () => {
-  return <Markdown md={mdAboutUs} />;
+  const mdAboutUs = useFetchMarkDown({ md: 'markdown/about-us.md' });
+
+  return <Markdown mdContent={mdAboutUs} />;
 };
 
 export default AboutUs;

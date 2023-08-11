@@ -1,26 +1,24 @@
-import React from 'react';
-import raw from 'raw.macro';
-
-import Markdown from './Markdown';
 import Collapsible from './Collapsible';
-
-const mdResearchIntro = raw('../content/research-intro.md');
-const mdResearchGPS = raw('../content/research-gps.md');
-const mdResearchJUNO = raw('../content/research-juno.md');
-const mdResearchMeningococcus = raw('../content/research-meningococcus.md');
+import Markdown from './Markdown';
+import useFetchMarkDown from '../hooks/useFetchMarkDown';
 
 const ResearchThemes = () => {
+  const mdResearchIntro = useFetchMarkDown({ md: 'markdown/research-intro.md' });
+  const mdResearchGPS = useFetchMarkDown({ md: 'markdown/research-gps.md' });
+  const mdResearchJUNO = useFetchMarkDown({ md: 'markdown/research-juno.md' });
+  const mdResearchMeningococcus = useFetchMarkDown({ md: 'markdown/research-meningococcus.md' });
+
   return (
     <div>
-      <Markdown md={mdResearchIntro} />
+      <Markdown mdContent={mdResearchIntro} />
       <Collapsible title='Streptococcus pneumoniae' logo='logos/gps-logo.png'>
-        <Markdown md={mdResearchGPS} />
+        <Markdown mdContent={mdResearchGPS} />
       </Collapsible>
       <Collapsible title='Streptococcus agalactiae' logo='logos/juno-logo.png'>
-        <Markdown md={mdResearchJUNO} />
+        <Markdown mdContent={mdResearchJUNO} />
       </Collapsible>
       <Collapsible title='Neisseria meningitidis' logo='logos/meningococcus.png'>
-        <Markdown md={mdResearchMeningococcus} />
+        <Markdown mdContent={mdResearchMeningococcus} />
       </Collapsible>
     </div>
   );

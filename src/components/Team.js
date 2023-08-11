@@ -1,14 +1,11 @@
 import React from 'react';
-import raw from 'raw.macro';
-import { Grid, Box, Typography, Link } from '@material-ui/core';
+import { Grid, Box, Typography, Link } from '@mui/material';
 
 import currentTeam from '../content/team';
 import honoraryTeam from '../content/honorary-team';
 import Markdown from './Markdown';
+import useFetchMarkDown from '../hooks/useFetchMarkDown';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';
-
-const mdVisitors = raw('../content/visitors.md');
-const mdAlumni = raw('../content/alumni.md');
 
 const Person = ({ name, role, imageUrl, sangerProfile, description }) => (
   <Box>
@@ -45,8 +42,12 @@ const HonoraryTeam = () => (
   </Box>
 );
 
-const Team = () => (
-  <React.Fragment>
+const Team = () => {
+  const mdVisitors = useFetchMarkDown({ md: 'markdown/visitors.md' });
+  const mdAlumni = useFetchMarkDown({ md: 'markdown/alumni.md' });
+
+  return (
+    <React.Fragment>
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
       Current members
     </Typography>
@@ -58,12 +59,13 @@ const Team = () => (
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
       Associates and visitors
     </Typography>
-    <Markdown md={mdVisitors} />
+    <Markdown mdContent={mdVisitors} />
     <Typography variant="h4" style={{ paddingTop: '1rem' }}>
       Alumni
     </Typography>
-    <Markdown md={mdAlumni} />
+    <Markdown mdContent={mdAlumni} />
   </React.Fragment>
-);
+  )
+};
 
 export default Team;

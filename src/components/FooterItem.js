@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography, useMediaQuery } from '@material-ui/core';
+import { Grid, Typography, useMediaQuery } from '@mui/material';
 
 const FooterItem = ({ heading, right, children }) => {
   const isMultiColumn = useMediaQuery(theme => theme.breakpoints.up('sm'));

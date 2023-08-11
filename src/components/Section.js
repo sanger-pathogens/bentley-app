@@ -1,7 +1,6 @@
 import React from 'react';
-import { Box, Grid, Typography } from '@material-ui/core';
-import ScrollableAnchor from 'react-scrollable-anchor';
-import { makeStyles } from '@material-ui/core/styles';
+import { Box, Grid, Typography } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -12,28 +11,28 @@ const useStyles = makeStyles({
   },
 });
 
-const Section = ({ anchorId, title, ContentComponent }) => {
+const Section = ({ id, title, ContentComponent }) => {
   const classes = useStyles();
   return (
-    <Grid
-      container
-      justify="center"
-      spacing={1}
-      className={classes.gridContainer}
-    >
-      <Grid item xs={12} md={10} lg={8}>
-        <Box pt={8}>
-          <ScrollableAnchor id={anchorId}>
+    <div id={id}>
+      <Grid
+        container
+        justifyContent="center"
+        spacing={1}
+        className={classes.gridContainer}
+      >
+        <Grid item xs={12} md={10} lg={8}>
+          <Box pt={8}>
             <Box>
               <Typography variant="h2" gutterBottom>
                 {title}
               </Typography>
               <ContentComponent />
             </Box>
-          </ScrollableAnchor>
-        </Box>
+          </Box>
+        </Grid>
       </Grid>
-    </Grid>
+    </div>
   );
 };
 

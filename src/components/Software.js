@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Typography, Link } from '@material-ui/core';
+import { Grid, Box, Typography, Link } from '@mui/material';
 
 import softwares from '../content/software';
 import TeamDescriptionRenderer from './TeamDescriptionRenderer';

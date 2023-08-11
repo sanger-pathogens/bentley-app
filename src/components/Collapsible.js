@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import Card from "@material-ui/core/Card";
-import Collapse from "@material-ui/core/Collapse";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardContent from "@material-ui/core/CardContent";
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import ExpandLessIcon from '@material-ui/icons/ExpandLess';
-import IconButton from "@material-ui/core/IconButton";
-import Avatar from '@material-ui/core/Avatar';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles'
+import Card from "@mui/material/Card";
+import Collapse from "@mui/material/Collapse";
+import CardHeader from "@mui/material/CardHeader";
+import CardContent from "@mui/material/CardContent";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import IconButton from "@mui/material/IconButton";
+import Avatar from '@mui/material/Avatar';
+import Typography from '@mui/material/Typography';
+import makeStyles from '@mui/styles/makeStyles';
 
 
 const useStyles = makeStyles(() => ({
@@ -23,36 +23,34 @@ const Collapsible = (props) => {
 
     const classes = useStyles()
 
-    return (
-        <>
-            <Card elevation={0}>
-                <CardHeader
-                    title={<Typography style={{ fontStyle: 'italic' }} variant={"h5"}>{props.title}</Typography>}
-                    onClick={() => setOpen(!open)}
-                    action={
-                        <IconButton>
-                            {open ? <ExpandLessIcon /> : <ExpandMoreIcon />}
-                        </IconButton>
-                    }
-                    avatar={
-                        <Avatar 
-                            src={props.logo}
-                            style={{ width: '100px', height: '100px' }}
-                        />
-                    }
-                    classes={{
-                        action: classes.cardHeaderAction
-                    }}
-                ></CardHeader>
+    return <>
+        <Card>
+            <CardHeader
+                title={<Typography style={{ fontStyle: 'italic' }} variant={"h5"}>{props.title}</Typography>}
+                onClick={() => setOpen(!open)}
+                action={
+                    <IconButton size="large">
+                        {open ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+                    </IconButton>
+                }
+                avatar={
+                    <Avatar 
+                        src={props.logo}
+                        style={{ width: '100px', height: '100px' }}
+                    />
+                }
+                classes={{
+                    action: classes.cardHeaderAction
+                }}
+            ></CardHeader>
 
-                <Collapse in={open} timeout="auto" unmountOnExit>
-                    <CardContent>
-                        <Typography align={"justify"}>{props.children}</Typography>
-                    </CardContent>
-                </Collapse>
-            </Card>
-        </>
-    );
+            <Collapse in={open} timeout="auto" unmountOnExit>
+                <CardContent style={{textAlign: 'justify'}}>
+                    {props.children}
+                </CardContent>
+            </Collapse>
+        </Card>
+    </>;
 }
 
 export default Collapsible

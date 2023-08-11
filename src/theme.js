@@ -3,7 +3,7 @@ export const secondary = '#651fff';
 export const highlight = '#f5f9a7';
 export const background = '#424242';
 
-export default {
+const theme = {
   typography: {
     button: {
       textTransform: 'none',
@@ -23,9 +23,12 @@ export default {
     ].join(','),
   },
   palette: {
-    type: 'dark',
+    mode: 'dark',
     primary: { main: primary },
     secondary: { main: secondary },
+    background: {
+      paper: background
+    }
   },
   status: {
     danger: 'orange',
@@ -67,3 +70,5 @@ export default {
     },
   },
 };
+
+export default theme
