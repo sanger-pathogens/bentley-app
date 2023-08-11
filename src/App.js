@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { CssBaseline } from '@material-ui/core';
 import {
   ThemeProvider,
-  createMuiTheme,
+  createTheme,
   responsiveFontSizes,
 } from '@material-ui/core/styles';
 
@@ -12,7 +12,7 @@ import 'typeface-inter';
 import theme from './theme';
 import PageHome from './components/PageHome';
 
-const generatedTheme = responsiveFontSizes(createMuiTheme(theme));
+const generatedTheme = responsiveFontSizes(createTheme(theme));
 
 const App = () => (
   <React.Fragment>
