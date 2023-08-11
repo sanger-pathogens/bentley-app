@@ -3,14 +3,16 @@ import ReactMarkdown from 'react-markdown';
 
 import { Typography, Link } from '@material-ui/core';
 
+const headerRenderer = ({ level, children }) => <Typography variant={`h${level}`} style={{ paddingTop: '1rem' }}>{children}</Typography>
+
 const renderers = {
   p: ({ children }) => <Typography gutterBottom>{children}</Typography>,
-  h1: ({ children }) => <Typography variant={'h1'} style={{ paddingTop: '1rem' }}>{children}</Typography>,
-  h2: ({ children }) => <Typography variant={'h2'} style={{ paddingTop: '1rem' }}>{children}</Typography>,
-  h3: ({ children }) => <Typography variant={'h3'} style={{ paddingTop: '1rem' }}>{children}</Typography>,
-  h4: ({ children }) => <Typography variant={'h4'} style={{ paddingTop: '1rem' }}>{children}</Typography>,
-  h5: ({ children }) => <Typography variant={'h5'} style={{ paddingTop: '1rem' }}>{children}</Typography>,
-  h6: ({ children }) => <Typography variant={'h6'} style={{ paddingTop: '1rem' }}>{children}</Typography>,
+  h1: ({ level, children }) => headerRenderer({ level, children }),
+  h2: ({ level, children }) => headerRenderer({ level, children }),
+  h3: ({ level, children }) => headerRenderer({ level, children }),
+  h4: ({ level, children }) => headerRenderer({ level, children }),
+  h5: ({ level, children }) => headerRenderer({ level, children }),
+  h6: ({ level, children }) => headerRenderer({ level, children }),
   img: props => <img {...props} width="250px" alt='No description'/>,
   a: props => <Link {...props} target="_blank" rel="noopener noreferrer" />,
 };
