@@ -42,6 +42,7 @@
         "name": "Dr. Harry Hung",
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/Harry_BW.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/hung-harry/",
         "description": "I work on both the analysis and visualisation of the Global Pneumococcal Sequencing Project."
     },
     {
