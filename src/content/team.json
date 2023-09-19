@@ -83,6 +83,13 @@
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
     },
     {
+        "name": "Oliver Lorenz",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Oli_BW.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/lorenz-oliver/",
+        "description": "I develop bioinformatics pipelines and research software for the Global Pneumococcal Sequencing Project."
+    },
+    {
         "name": "Dr. Kate Mellor",
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/BW_Kate.png",
