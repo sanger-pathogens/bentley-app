@@ -42,6 +42,7 @@
         "name": "Dr. Harry Hung",
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/Harry_BW.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/hung-harry/",
         "description": "I work on both the analysis and visualisation of the Global Pneumococcal Sequencing Project."
     },
     {
@@ -81,6 +82,13 @@
         "imageUrl": "/people/Stephanie_1_BW2.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/lo-stephanie/",
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
+    },
+    {
+        "name": "Oliver Lorenz",
+        "role": "Senior Bioinformatician",
+        "imageUrl": "/people/Oli_BW.jpg",
+        "sangerProfile": "https://www.sanger.ac.uk/person/lorenz-oliver/",
+        "description": "I develop bioinformatics pipelines and research software for the Global Pneumococcal Sequencing Project."
     },
     {
         "name": "Dr. Kate Mellor",
