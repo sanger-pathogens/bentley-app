@@ -8,7 +8,7 @@
     },
     {
         "name": "Sophie Belman",
-        "role": "PhD Student",
+        "role": "Research Associate",
         "imageUrl": "/people/Sophie_1_BW.png",
         "sangerProfile": "https://www.sanger.ac.uk/person/belman-sophie/",
         "description": "I study global spatiotemporal dynamics of *Streptococcus pneumoniae* to understand the impact migration has on disease prevalence and prevention."
@@ -54,7 +54,7 @@
     },
     {
         "name": "Dr. Nida Javaid",
-        "role": "Postdoctoral fellow",
+        "role": "Postdoctoral Fellow",
         "imageUrl": "/people/BW_Nida.png",
         "description": "I am interested in investigating potential vaccine targets for *Streptococcus agalactiae* using genomic and pan-genomic approaches."
     },
@@ -78,7 +78,7 @@
     },
     {
         "name": "Dr. Stephanie Wai-U Lo",
-        "role": "Project Manager and Principal Bioinformatician",
+        "role": "Translational Science Lead and Senior Scientific Manager",
         "imageUrl": "/people/Stephanie_1_BW2.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/lo-stephanie/",
         "description": "I oversee the Global Pneumococcal Sequencing Project by setting overall scientific strategy, communicating with collaborators, and delivering outputs through publications."
@@ -92,7 +92,7 @@
     },
     {
         "name": "Dr. Kate Mellor",
-        "role": "Senior Bioinformatician",
+        "role": "Senior Staff Scientist",
         "imageUrl": "/people/BW_Kate.png",
         "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
     },
