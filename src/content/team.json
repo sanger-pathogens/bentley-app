@@ -43,11 +43,11 @@
         "role": "Senior Bioinformatician",
         "imageUrl": "/people/Harry_BW.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/hung-harry/",
-        "description": "I work on both the analysis and visualisation of the Global Pneumococcal Sequencing Project."
+        "description": "I develop pipeline, perform analysis and build web-based visualisation for the Global Pneumococcal Sequencing Project. Additionally, I develop and maintain team websites."
     },
     {
         "name": "Dr. Dorota Jamrozy",
-        "role": "Project Manager and Principal Bioinformatician",
+        "role": "Principal Bioinformatician and Project Manager",
         "imageUrl": "/people/Dorota_1_BW.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/jamrozy-dorota/",
         "description": "I coordinate the JUNO project and study genomics and evolution of Group B *Streptococcus*."
@@ -98,7 +98,7 @@
     },
     {
         "name": "Dr. Jolynne Mokaya",
-        "role": "Senior Bioinformatician",
+        "role": "Senior Bioinformatician and Bioinformatics Training Lead (GPS & JUNO projects)",
         "imageUrl": "/people/Jolynne_BW.png",
         "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
     },
