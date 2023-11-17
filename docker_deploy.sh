@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Deploy a release of the Bactgen training app.
+# Deploy a release of the Bentley app.
 
 # check args count
 if [ $# -lt 2 ]; then
