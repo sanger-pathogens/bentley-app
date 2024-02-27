@@ -4,7 +4,7 @@
         "role": "Team Leader",
         "imageUrl": "/people/Stephen_1_BW_2.jpg",
         "sangerProfile": "https://www.sanger.ac.uk/person/bentley-stephen-d/",
-        "description": "I’m interested in genomics applications for efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low-income settings."
+        "description": "I'm interested in genomics applications for efforts to reduce the burden of bacterial pathogens causing pneumonia, meningitis and neonatal sepsis in infants in low-income settings."
     },
     {
         "name": "Sophie Belman",
@@ -17,14 +17,7 @@
         "name": "Raymond Hsueh-Chien Cheng",
         "role": "PhD Student",
         "imageUrl": "/people/Raymond_BW.jpg",
-        "description": "I’m interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
-    },
-    {
-        "name": "Dr. Victoria Dyster",
-        "role": "Principal Bioinformatician",
-        "imageUrl": "/people/BW_Vicky_square.jpg",
-        "sangerProfile": "https://www.sanger.ac.uk/person/carr-victoria/",
-        "description": "I work on pathogen detection and emergence in the microbiome, and high quality bioinformatic pipelines and research software for genomic surveillance."
+        "description": "I'm interested in studying various modes of evolution in pathogenic bacteria and how they shape different population structure."
     },
     {
         "name": "Dr. Ana Ferreira",
@@ -65,10 +58,10 @@
         "description": "I study antibiotic resistance mechanisms, recombination, mobile genetic elements and transmission in *Streptococcus agalactiae* to comprehend bacterial adaptation and evolution."
     },
     {
-        "name": "Dr. Narender Kumar",
-        "role": "Senior Bioinformatician",
-        "imageUrl": "/people/BW_Narender_square.png",
-        "description": "I am responsible for the planning and facilitation of the WGS capacity and infrastructure setup for the GPS project."
+        "name": "Dr. Alannah King",
+        "role": "Bioinformatician",
+        "imageUrl": "/people/Alannah_BW.jpg",
+        "description": "I help to develop new methods and software for the GPS project, as well as analysing GPS project data to learn more about the population structure and dynamics of *S. pneumoniae*."
     },
     {
         "name": "Dr. Oumie Kuyateh",
