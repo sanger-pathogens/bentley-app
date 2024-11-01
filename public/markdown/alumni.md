@@ -12,3 +12,5 @@
 - Minh Thi Huynh
 - Victoria Dyster
 - Narender Kumar
+- Uzma Basit Khan
+- Jolynne Mokaya

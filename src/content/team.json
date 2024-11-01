@@ -52,12 +52,6 @@
         "description": "I am interested in investigating potential vaccine targets for *Streptococcus agalactiae* using genomic and pan-genomic approaches."
     },
     {
-        "name": "Dr. Uzma Basit Khan",
-        "role": "Senior Computational Biologist",
-        "imageUrl": "/people/Uzma_BW.png",
-        "description": "I study antibiotic resistance mechanisms, recombination, mobile genetic elements and transmission in *Streptococcus agalactiae* to comprehend bacterial adaptation and evolution."
-    },
-    {
         "name": "Dr. Alannah King",
         "role": "Staff Scientist",
         "imageUrl": "/people/Alannah_BW.jpg",
@@ -88,12 +82,6 @@
         "role": "Senior Staff Scientist",
         "imageUrl": "/people/BW_Kate.png",
         "description": "I am involved with analysis of GPS project data and will also be supporting capacity building and training activities."
-    },
-    {
-        "name": "Dr. Jolynne Mokaya",
-        "role": "Senior Bioinformatician and Bioinformatics Training Lead (GPS & JUNO projects)",
-        "imageUrl": "/people/Jolynne_BW.png",
-        "description": "I lead the delivery of genomics training through our GPS and JUNO projects. I am also interested in understanding the genomic epidemiology of bacterial infections prevalent in low- and middle-income countries. Specifically, analysing and predicting patterns of antimicrobial resistance and disease transmission."
     },
     {
         "name": "Eunice Waithira Njuguna",
